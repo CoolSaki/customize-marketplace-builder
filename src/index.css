@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: #21263f;
+}
+
+#root {
+  height: 100%;
+  max-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  font-weight: normal;
+}
+
+body.lock-scroll {
+  overflow: hidden;
+}
+
+body canvas.dcl-canvas {
+  display: none;
+}
+
+.text {
+  color: var(--text);
+}
+
+.link {
+  color: var(--link-accent-text);
+  cursor: pointer;
+}
+
+.is-uploading {
+  animation: uploading 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes uploading {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*
+ISSUE 329: https://github.com/unicial/builder/issues/329
+
+Hides intercom's "Hey do you need help?" thingy that shows up when you enter the editor
+and every time after exiting preview mode.
+
+*/
+
+[name='intercom-launcher-discovery-frame'] {
+  display: none !important;
+}

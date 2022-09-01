@@ -1,0 +1,178 @@
+.CollectionsPage .ui.cards {
+  margin: 0px;
+}
+
+.CollectionsPage .ui.cards > .empty {
+  margin-top: 28px;
+  padding: 112px 0;
+  width: 100%;
+  border-radius: 8px;
+  justify-content: center;
+  color: var(--secondary-text);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.CollectionsPage .ui.cards > .empty .header.title {
+  margin: 0;
+}
+
+.CollectionsPage .ui.cards > .empty .empty-description {
+  margin: 8px auto 34px;
+  width: 500px;
+}
+
+.CollectionsPage .ui.cards > .empty .create-new-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.CollectionsPage .ui.cards > .empty .create-new {
+  width: 285px;
+  height: 285px;
+  position: relative;
+  background-color: rgba(var(--bluish-steel-raw), 1);
+  border-radius: 15px;
+  background-position: 50% 35%;
+  cursor: pointer;
+}
+
+.CollectionsPage .ui.cards > .empty .create-new:first-child {
+  margin-right: 24px;
+}
+
+.CollectionsPage .ui.cards > .empty .create-new > .text {
+  position: absolute;
+  flex: 1 1;
+  color: #fff;
+  bottom: 45px;
+  width: 100%;
+}
+
+.CollectionsPage .ui.cards > .empty .create-new-item {
+  background-image: url('../../images/new-item.svg');
+  background-repeat: no-repeat;
+}
+.CollectionsPage .ui.cards > .empty .create-new-collection {
+  background-image: url('../../images/new-collection-item.svg');
+  background-repeat: no-repeat;
+}
+
+.CollectionsPage .ui.cards .ui.card {
+  width: 248px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.CollectionsPage .card .CollectionImage {
+  height: 248px;
+}
+
+.CollectionsPage .card .image-wrapper {
+  height: 248px;
+  padding: 15px;
+}
+
+.CollectionsPage .filters .dcl.row.actions .ui.dropdown .ui.button {
+  border-radius: 100px;
+  min-width: 50px;
+  height: 34px;
+  width: 50px;
+  color: white;
+  position: relative;
+  z-index: 1;
+  font-size: 14px;
+  padding: 9px 17px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  margin-left: 10px;
+}
+
+.CollectionsPage .filters .dcl.row.actions .ui.button.open-editor {
+  padding: 6px 13px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.CollectionsPage .filters .dcl.row.actions .ui.button.open-editor:hover {
+  transform: translateY(0px);
+}
+
+.CollectionsPage .MultiSelect {
+  padding: 5px 7px;
+  height: 14px;
+}
+
+.CollectionsPage .MultiSelect.grid {
+  border-radius: 100px 0px 0px 100px;
+  margin-left: 20px;
+}
+
+.CollectionsPage .MultiSelect.atlas {
+  border-radius: 0px 100px 100px 0px;
+}
+
+.CollectionsPage .is-card {
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  box-shadow: none;
+  transform: translateY(0px);
+  margin-top: 20px;
+  margin-right: 24px;
+}
+/* 
+.CollectionsPage .is-card:nth-child(4n) {
+  margin-right: 0px;
+} */
+
+.CollectionsPage .is-card:hover {
+  transform: translateY(-4px);
+}
+
+.CollectionsPage .is-card .is-image {
+  transition: box-shadow 0.2s ease-in-out;
+  height: 200px;
+  width: 267px;
+  overflow: hidden;
+  border-radius: 8px !important;
+}
+
+.CollectionsPage .is-card:hover .is-image {
+  box-shadow: var(--shadow-2);
+}
+
+.CollectionsPage .is-card .is-image .is-image {
+  border-radius: 0px !important;
+  box-shadow: none;
+}
+
+.CollectionsPage .collectionpage-result-header {
+  font-family: 'Lato' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 26px !important;
+  text-transform: uppercase !important;
+  color: #96a1db !important;
+}
+
+@media (max-width: 1200px) {
+  .CollectionsPage .is-card .is-image {
+    width: 215px;
+    height: 165px;
+  }
+}
+
+.CollectionsPage .dcl.tabs.fullscreen .dcl.column.right {
+  float: right;
+  padding: 19px 0;
+}

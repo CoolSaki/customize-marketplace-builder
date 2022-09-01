@@ -1,0 +1,59 @@
+.Tags {
+  border: 1px solid #373f66;
+  border-radius: 100px;
+  padding: 8px 12px 2px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.Tags.blank {
+  padding: 10px 12px;
+}
+
+.Tags.is-disabled {
+  opacity: 0.45;
+}
+
+.Tags .label {
+  margin-right: 20px;
+  color: var(--secondary-text);
+}
+
+.Tags .values {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Tags .values .value {
+  background-color: #21263f;
+  padding: 2px 8px;
+  margin-bottom: 6px;
+  margin-right: 10px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.Tags .values .value .remove {
+  width: 12px;
+  height: 12px;
+  background-image: url(../../../../icons/close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px 8px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.Tags input {
+  color: var(--text);
+  background: none;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  margin-bottom: 6px;
+}
+
+.Tags.blank input {
+  margin: 2px 0;
+}

@@ -1,0 +1,36 @@
+.FileImport .dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 6px;
+  height: 276px;
+  width: 100%;
+  background-color: rgba(var(--bluish-accent-raw), 1);
+  outline: none;
+  user-select: none;
+  overflow: auto;
+  position: relative;
+}
+
+.FileImport .dropzone .action {
+  display: block;
+  color: var(--link-accent-text);
+  cursor: pointer;
+  text-align: center;
+}
+
+.FileImport .image {
+  width: 64px;
+  height: 70px;
+  background: url('../../images/import.svg') no-repeat;
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+.FileImport .cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

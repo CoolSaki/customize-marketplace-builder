@@ -1,0 +1,11 @@
+.dcl.center.SignInRequired {
+  top: 64px;
+}
+
+.dcl.center.SignInRequired .secondary-text a {
+  color: #ec8944 !important;
+}
+
+.sign-in-link {
+  color: #ec8944;
+}

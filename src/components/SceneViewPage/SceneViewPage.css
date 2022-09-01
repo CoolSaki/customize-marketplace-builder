@@ -1,0 +1,191 @@
+.SceneViewPage {
+  display: block;
+  position: relative;
+  background: rgba(var(--bluish-steel-raw), 1);
+  width: 90%;
+  max-width: 944px;
+  margin: 24px auto;
+  border-radius: 8px;
+}
+
+.SceneViewPage .scene-action-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  z-index: 0;
+}
+
+.SceneViewPage.preview .scene-action-list {
+  display: none;
+}
+
+.SceneViewPage .thumbnail {
+  width: 100%;
+  position: relative;
+  height: fit-content;
+  z-index: 0;
+  height: 600px;
+  background: var(--light-blue-steel);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+}
+
+.SceneViewPage.mini canvas.dcl-canvas {
+  cursor: grab !important;
+}
+
+.SceneViewPage.mini canvas.dcl-canvas:active {
+  cursor: grabbing !important;
+}
+
+.SceneViewPage.preview,
+.SceneViewPage.preview .thumbnail {
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.SceneViewPage .thumbnail .ui.loader {
+  z-index: 0;
+}
+
+.SceneViewPage .thumbnail,
+.SceneViewPage .thumbnail .Preview-wrapper,
+.SceneViewPage .thumbnail .Preview-wrapper .Preview,
+.SceneViewPage .thumbnail .Preview-wrapper .Preview canvas {
+  border-radius: 12px 12px 0 0;
+}
+
+.SceneViewPage.preview .thumbnail,
+.SceneViewPage.preview .thumbnail .Preview-wrapper,
+.SceneViewPage.preview .thumbnail .Preview-wrapper .Preview,
+.SceneViewPage.preview .thumbnail .Preview-wrapper .Preview canvas {
+  border-radius: 0;
+}
+
+.SceneViewPage .detail {
+  overflow: auto;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.SceneViewPage.preview .detail {
+  display: none;
+}
+
+.SceneViewPage .detail .title {
+  flex: 1;
+}
+
+.SceneViewPage .detail .title h1 {
+  font-family: 'Montserrat';
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0;
+}
+
+.SceneViewPage .detail .author {
+  color: var(--light-gray);
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.SceneViewPage .detail .author .author-name {
+  color: var(--summer-red);
+}
+
+.SceneViewPage .detail .avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  margin-left: 12px;
+  background: var(--light-blue-steel);
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.SceneViewPage .detail .avatar img {
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.SceneViewPage .detail .description {
+  margin: 8px 0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #96a1db;
+  flex: 0 0 100%;
+}
+
+.SceneViewPage .detail .description p {
+  color: #96a1db;
+}
+
+.SceneViewPage .detail .component-list {
+  color: var(--secondary-text);
+  font-weight: 600;
+  display: flex;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  margin-top: 24px;
+  flex: 0 0 100%;
+}
+
+.SceneViewPage .detail .component-list .component {
+  margin-right: 24px;
+}
+
+.SceneViewPage .detail .component-list .component .Icon {
+  margin-right: 0.5em;
+  vertical-align: top;
+}
+
+.SceneViewPage .Chip.circle .Icon {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.SceneViewPage .Chip.circle .LikeCount {
+  margin: 0 0.5em;
+  font-size: 18px;
+}
+
+.back-container {
+  height: 42p;
+  margin-top: 24px;
+  position: relative;
+}
+
+.back-container .dcl.back {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .SceneViewPage .thumbnail {
+    height: 90vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .SceneViewPage .detail .title,
+  .SceneViewPage .detail .author {
+    flex: 0 0 100%;
+  }
+}

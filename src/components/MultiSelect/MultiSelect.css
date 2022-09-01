@@ -1,0 +1,57 @@
+.MultiSelect,
+.MultiSelect.square {
+  min-width: 10px;
+  min-height: 26px;
+  padding: 3px 11px;
+}
+
+.MultiSelect.rectangle {
+  min-width: 40px;
+  min-height: 24px;
+}
+
+.MultiSelect.circle {
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 20px;
+  padding: 11px 11px;
+  background: var(--dark-two);
+}
+
+.MultiSelect {
+  font-size: 0.5em;
+  border-radius: 4px;
+  /* background: rgba(var(--bluish-steel-raw), 0.64); */
+  background-color: #282e4e;
+  color: #fff;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MultiSelect.active {
+  /* background: rgba(var(--bluish-steel-raw), 0.32); */
+  background-color: #333b67;
+}
+
+.MultiSelect.clickeable {
+  cursor: pointer;
+}
+
+.MultiSelect.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.MultiSelect.disabled .Icon {
+  cursor: default;
+}
+
+.MultiSelect .Icon {
+  display: block;
+}
+
+.MultiSelect .text {
+  font-size: 17px;
+}

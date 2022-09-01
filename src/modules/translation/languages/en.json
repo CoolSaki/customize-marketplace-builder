@@ -1,0 +1,1447 @@
+{
+  "atlas": {
+    "locate_land": "Locate next LAND",
+    "zoom_in": "Zoom in",
+    "zoom_out": "Zoom out"
+  },
+  "authorization_modal": {
+    "title": "Authorize {token}",
+    "description": "In order to continue you will need to authorize the {contract} contract to operate {token} tokens on your behalf. This only has to be done once.",
+    "authorize": "Authorize the {contract_link} contract to operate {symbol} on your behalf",
+    "pending_tx": "Transaction pending, click the spinner to go to your activity for a detailed status"
+  },
+  "add_existing_item_modal": {
+    "title": "Add Existing Item",
+    "subtitle": "Select an item that is not part of a collection yet"
+  },
+  "move_item_to_collection_modal": {
+    "title": "Move Item to Collection",
+    "subtitle": "Select the collection that you want to move the item to",
+    "confirm": "Move"
+  },
+  "asset_pack": {
+    "confirm_delete": {
+      "action": "Delete Asset Pack",
+      "back": "Go Back",
+      "description": "You are about to delete this Asset Pack. This action cannot be undone.",
+      "title": "Are you sure?"
+    },
+    "default_name": "My Asset Pack",
+    "default_name_suffix": "My Asset Pack ({suffix})",
+    "edit_asset": {
+      "action": "Continue",
+      "action_skip": "Skip review",
+      "category": {
+        "label": "category"
+      },
+      "description_create": "Review your assets, add tags and more",
+      "description_edit": "Review your assets, add tags and more",
+      "errors": {
+        "max_name_length": "Asset names can only be up to {count} characters long",
+        "min_name_length": "Asset names must be at least {count} characters long",
+        "tag_count": "You can only specify a maximum of {count} tags"
+      },
+      "ground": {
+        "label": "use as ground"
+      },
+      "name": {
+        "label": "name",
+        "placeholder": "Asset Name"
+      },
+      "tags": {
+        "label": "tags",
+        "placeholder": "e.g. (outdoors furniture floor)"
+      },
+      "title_create": "Create Asset Pack",
+      "title_edit": "Edit Asset Pack"
+    },
+    "edit_assetpack": {
+      "action_add_items": "Add Assets",
+      "action_create": "Create Asset Pack",
+      "action_delete": "Delete Asset Pack",
+      "action_edit": "Save Asset Pack",
+      "description_create": "Awesome! Enter a unique name for your Asset Pack.",
+      "description_edit": "Enter a unique name for your Asset Pack. Click on an Asset to edit it.",
+      "errors": {
+        "max_title_length": "Asset Pack titles can only be up to {count} characters long",
+        "min_title_length": "Asset Pack titles must be at least {count} characters long",
+        "thumbnail_size": "Image file size must be less than {size}"
+      },
+      "items": {
+        "empty": "This Asset Pack is empty",
+        "label": "{count} {count, plural, one {Asset} other {Assets}}"
+      },
+      "name": {
+        "label": "name",
+        "placeholder": "My new Asset Pack"
+      },
+      "reset": "Add new Assets",
+      "title_edit": "Edit Asset Pack"
+    },
+    "exit": {
+      "action": "Exit",
+      "back": "Go Back",
+      "description_create": "You are about to exit the Asset Pack creation, do you want to proceed?",
+      "description_edit": "You are about to exit the Asset Pack update, do you want to proceed?",
+      "title_create": "Are you sure?",
+      "title_edit": "Are you sure?"
+    },
+    "import": {
+      "action": "Import asset",
+      "action_many": "Import {count} assets",
+      "cta": "Drag your Asset file here in {models_link} format, or {action}",
+      "description_create": "Start by adding some assets to your pack",
+      "description_edit": "Add some more items to your pack",
+      "errors": {
+        "duplicated": "Duplicated Asset",
+        "duplicated_asset": "{name}: There's already an asset in this asset pack called \"{existingAsset}\" that has the id \"{id}\", please change the id of \"{newAsset}\" to a different one",
+        "invalid": "Invalid Asset",
+        "max_file_size": "{name}: File size exceeds {max}mb limit",
+        "missing_extension": "{name}: Missing file extension",
+        "missing_model": "{name}: Missing 3D model (.gltf or .glb)",
+        "scene_file": "{name}: Exported scenes are not allowed"
+      },
+      "title_create": "Create Asset Pack",
+      "title_edit": "Edit Asset Pack"
+    },
+    "new_asset_pack": "New Asset Pack",
+    "progress": {
+      "creating_asset_pack": "Creating Asset Pack",
+      "updating_asset_pack": "Updating Asset Pack",
+      "uploading_contents": "Uploading Asset Pack contents"
+    },
+    "success": {
+      "continue": "Keep working",
+      "description": "Your Asset Pack was successfully uploaded. Check out the Asset Packs list to start using it. ",
+      "title": "All done!"
+    },
+    "title_create": "Create Asset Pack"
+  },
+  "banners": {
+    "promo_subtitle": "Custom Asset Packs now available in Decentraland!",
+    "promo_title": "Personalise your world",
+    "top_banner_action": "Learn more.",
+    "top_banner_left": "September 16-30 - Intense online creation with over $250k USD in prizes to share.",
+    "top_banner_right": " "
+  },
+  "body_shapes": {
+    "both": "Both",
+    "male": "Male",
+    "female": "Female",
+    "null": "None"
+  },
+  "item_types": {
+    "wearable": "Wearable",
+    "smart_wearable": "Smart Wearable"
+  },
+  "avatar_animations": {
+    "idle": "Idle",
+    "wave": "Wave",
+    "fistpump": "Fistpump",
+    "robot": "Dance",
+    "raiseHand": "Raise Hand",
+    "clap": "Clap",
+    "money": "Money",
+    "kiss": "Kiss"
+  },
+  "create_collection_modal": {
+    "title": "New Collection",
+    "subtitle": "Enter a descriptive name for your new collection",
+    "label": "Name",
+    "placeholder": "My collection",
+    "message": "The name can be {maxLength} characters at most",
+    "error_name_already_in_use": "Name already in use. Try a different one"
+  },
+  "create_third_party_collection_modal": {
+    "title": "New Linked Wearables Collection",
+    "subtitle": "Enter a descriptive name for your new collection",
+    "third_party": {
+      "label": "Third Party"
+    },
+    "name_field": {
+      "label": "Name",
+      "message": "The name can be {maxLength} characters at most"
+    },
+    "urn_suffix_field": {
+      "label": "Id",
+      "message": "We recommend including the collection contract address as part of the id. Only letters, numbers and dashes (-) are allowed"
+    }
+  },
+  "model_metrics": {
+    "triangles": "{count} {count, plural, one {triangle} other {triangles}}",
+    "materials": "{count} {count, plural, one {material} other {materials}}",
+    "textures": "{count} {count, plural, one {texture} other {textures}}"
+  },
+  "claim_ens_page": {
+    "title": "Claim a unique Name",
+    "subtitle": "Unique names can be assigned to your avatar for use as an alias, or they can be assigned to parcels.{br} Assigning a name to a parcel or estate allows you to create a unique URL, like {exampleLink}, making it easy to send people to your SPACE. When someone follows your new URL, they will be redirected to your SPACE in {dclWorldLink}{br} Names are only available in Zilionixx, and can only be claimed with Zilionixx UCC {symbol}",
+    "world": "Unicial!",
+    "name_label": "Name",
+    "name_message": "Names may not exceed 15 characters, contain spaces, or include any non-alphanumeric characters.",
+    "name_placeholder": "Your name goes here",
+    "repeated_message": "This name is not available.",
+    "error_message": "There is a network error, please try again",
+    "radio_label": "UCC approved",
+    "claim_button": "Claim ",
+    "need_mana_message": "Authorize the {contract_link} contract to operate UCC on your behalf",
+    "mana_not_allowed": "You need to authorize enough UCC to claim a new name",
+    "not_enough_mana": "You don't have enough UCC to claim a new name"
+  },
+  "create_single_item_modal": {
+    "title": "New Item",
+    "add_representation": "Add {bodyShape} Repesentation",
+    "name_label": "Enter a name for your item",
+    "category_label": "What's the category of this item?",
+    "category_placeholder": "Select a category",
+    "rarity_label": "How rare is this item?",
+    "rarity_placeholder": "Select a rarity",
+    "representation_label": "Select the body shape for your item",
+    "existing_item": "Is this part of an existing item?",
+    "pick_item": "Pick an item that doesn't have a {bodyShape}",
+    "adding_representation": "This will be added as {bodyShape} for the following item",
+    "change_item_file": "Edit representation",
+    "error": {
+      "item_too_big": "The entire item is too big to be uploaded. The max size for all files (including the thumbnail) is {size}.",
+      "file_too_big": "The file is too big to be uploaded. The max size is {size}.",
+      "wrong_extension": "The file has an invalid extension.",
+      "invalid_files": "Files seem to be invalid or broken, please review them and try again.",
+      "missing_model_file": "Couldn't find a valid model file.",
+      "invalid_content_path": "Invalid path \"{path}\" for property \"{name}\", file not found.",
+      "invalid_enum_value": "Invalid value \"{value}\" for property \"{name}\", possible values: {values}."
+    }
+  },
+  "create_and_edit_multiple_items_modal": {
+    "create": {
+      "title": "Create multiple items",
+      "successful_title": "Items created",
+      "cancelled_title": "Cancelled multiple items creation",
+      "failed_title": "Failed multiple items creation",
+      "finished_successfully_subtitle": "Great! You've added {number_of_items} items",
+      "finished_partial_successfully_subtitle": "You've added {number_of_items} items but {number_of_failed_items} failed",
+      "saved_items_table_title": "Saved items"
+    },
+    "edit": {
+      "title": "Edit items in bulk",
+      "subtitle": "In order to edit an existing item, use the same URN",
+      "successful_title": "Items updated",
+      "failed_title": "Failed multiple items update",
+      "cancelled_title": "Cancelled multiple items update",
+      "finished_successfully_subtitle": "Great! You've updated {number_of_items} items",
+      "finished_partial_successfully_subtitle": "You've updated {number_of_items} items but {number_of_failed_items} failed. Please review the URNs provided",
+      "saved_items_table_title": "Updated items"
+    },
+    "wrong_file_extension": "File extension is not correct.",
+    "asset_file_not_found": "The asset.json file was not found.",
+    "thumbnail_file_not_found": "Bulk files must contain a thumbnail.png file in their content.",
+    "not_saved_items_table_title": "Invalid items",
+    "cancelled_items_table_title": "Cancelled items",
+    "invalid_urn": "The asset.json file has an invalid URN for this collection",
+    "invalid_title": "INVALID",
+    "valid_title": "VALID",
+    "add_more_button": "Add more",
+    "upload_items_button": "Upload items",
+    "only_valid_items_info": "Only valid items will be uploaded",
+    "done_button": "Done",
+    "importing_files_progress_label": "Processing items",
+    "uploading_items_progress_label": "Uploading {number_of_items} items",
+    "import_information_link_label": "click here",
+    "import_information": "For more information on the ZIP's structure {link}"
+  },
+  "create_items_modal": {
+    "title": "New Item",
+    "subtitle": "Select the method for uploading your item.",
+    "single_item_button_name": "Single item",
+    "single_item_button_description": "Upload GLTF, GLB or PNG files.",
+    "multiple_items_button_name": "Multiple items",
+    "multiple_items_button_description": "Upload a ZIP file with all the files."
+  },
+  "edit_collection_name_modal": {
+    "title": "Edit Collection Name",
+    "subtitle": "Set a new name for this collection"
+  },
+  "edit_urn_modal": {
+    "title": "Edit URN",
+    "subtitle": "Update the URN for {name}"
+  },
+  "custom_layout_modal": {
+    "subtitle_one": "You can create custom layouts for your Scene.",
+    "subtitle_two": "Enter values in the inputs below for the desired size."
+  },
+  "share_modal": {
+    "title": "Share your Scene",
+    "description": "Let your friends and co-creators see your work",
+    "copy": "copy link",
+    "copied": "copied",
+    "uri": {
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u={url}&description=Introducing my latest creation, now live in Decentraland! View it below and then help me build the Metaverse by adding one of your own.",
+      "twitter": "https://twitter.com/intent/tweet?text=Just added a new design to Decentraland via the Builder. Check it out below then create your own. The virtual world’s not gonna build itself you know! {url}&hashtags=builder,virtualworld,gaming"
+    }
+  },
+  "deployment_status": {
+    "online": "Published at {coords}",
+    "online_multiple": "Published at {count} locations",
+    "needs_sync": "An earlier version was published at {coords} but latest changes haven't been published yet",
+    "needs_sync_multiple": "{count} {count, plural, one {scene needs} other {scenes need}} to be updated"
+  },
+  "deployment_modal": {
+    "clear": {
+      "confirmation": {
+        "action": "Unpublish",
+        "description": "You are about to unpublish \"{project}\" from {coords}",
+        "title": "Unpublish Scene"
+      },
+      "connect": {
+        "description": "Connect your wallet to continue unpublishing your Scene.",
+        "title": "Connect your wallet"
+      },
+      "success": {
+        "continue": "Done",
+        "description": "The land is now clear and ready to host something else!",
+        "title": "All clear!"
+      }
+    },
+    "description": "Deploy your Scene to your LAND or apply for a permit from landowners.",
+    "land": {
+      "confirmation": {
+        "action": "Publish",
+        "description": "You are publishing the following Scene to your LANDs:",
+        "location_label": "Published at",
+        "size_label": "Size",
+        "title_label": "Title"
+      },
+      "connect": {
+        "description": "Connect your wallet to continue.",
+        "title": "Publish Scene"
+      },
+      "map": {
+        "continue": "Continue",
+        "no_land_action": "Submit to Scene pool",
+        "no_land_warning": "It seems that you don't own any LAND",
+        "occupied_tooltip": "You can't publish here{br}It's overlapping with the scene \"{name}\"",
+        "occupied_warning": "This location is overlapping with the scene \"{name}\"",
+        "placement_active": "Placing a {count} LAND Scene at {x},{y}",
+        "placement_default": "Select the LANDs that will host your Scene",
+        "reset": "Reset",
+        "title": "Publish Scene"
+      },
+      "progress": {
+        "creating_files": {
+          "description": "Please wait while we create the files to be uploaded.",
+          "title": "Creating Asset Files"
+        },
+        "recording": {
+          "description": "Please wait while a preview of your Scene is captured.",
+          "title": "Capturing preview"
+        },
+        "uploading_assets": {
+          "description": "Please wait while your Scene is uploaded.",
+          "title": "Uploading to the Metaverse"
+        },
+        "uploading_recording": {
+          "description": "Please wait while upload your Scene preview.",
+          "title": "Uploading Preview"
+        }
+      },
+      "success": {
+        "jump_in": "Jump In",
+        "continue": "Continue working",
+        "description": "Your Scene has now been published.",
+        "title": "Done!"
+      },
+      "title": "Publish Scene"
+    },
+    "option_land": {
+      "action": "Publish to LAND",
+      "description": "Deploy your Scene to your LAND or Estate.",
+      "title": "My LAND"
+    },
+    "option_pool": {
+      "action": "Apply",
+      "description": "Apply with your Scene to be deployed on LAND that belongs to others.",
+      "title": "Scene Pool"
+    },
+    "pool": {
+      "action": "Submit",
+      "contact_information": "Contact information",
+      "i_accept_the": "By clicking \"submit\" you agree to receive news from Decentraland",
+      "progress": "Processing",
+      "sign_in": {
+        "action": "Sign In",
+        "subtitle": "You need to sign in before you publish to the Scene pool",
+        "title": "Sign In"
+      },
+      "subtitle": "Submit your work to our Scene pool for a chance to get it published.",
+      "success": {
+        "body": "You will receive an email notification if your Scene is picked to be published.",
+        "title": "Thanks for uploading your Scene!"
+      },
+      "title": "Publish your Scene",
+      "uploading": "Uploading"
+    },
+    "title": "Publish your Scene"
+  },
+  "use_as_alias_modal": {
+    "title": "Use as Alias",
+    "subtitle": "This will be your name in the Metaverse",
+    "body": "Use {newName} as your avatar’s new alias. Unique names are a great way to help your friends find you in the Metaverse! This will replace {oldName}.",
+    "success": "{name} is your new alias in the Metaverse! Let other people see your new name when visiting the world."
+  },
+  "deployment_contest_modal": {
+    "action": "Join the Contest",
+    "submit": {
+      "title": "Creator Contest",
+      "subtitle": "Earn 200 MANA (  ̴$5 USD) for each qualifying scene that you submit to the Contest, up to a maximum of 20 scenes.",
+      "eth_address": "ETH address (optional)",
+      "invalid_eth_address": "Invalid ETH address"
+    },
+    "recording": {
+      "title": "Preparing your scene",
+      "subtitle": "We are prepering your scene for the Contest, please wait."
+    },
+    "uploading": {
+      "title": "Preparing your scene",
+      "subtitle": "We are prepering your scene for the Contest, please wait."
+    },
+    "success": {
+      "title": "Thanks for uploading your Scene!",
+      "subtitle": "You will receive an email notification if your scene is selected."
+    }
+  },
+  "dissolve_modal": {
+    "title": "Dissolve Estate",
+    "confirm": "You are about to dissolve {name}. Do you want to proceed?",
+    "too_big": "This Estate is too big to be dissolved in one transaction. Please remove parcels until its size is at most {max} parcels."
+  },
+  "edit_project_modal": {
+    "custom_layout_label": "Layout",
+    "title": "Scene details",
+    "unpublish_needed": "Please Unpublish your Scene before updating your Scene Details"
+  },
+  "edit_page": {
+    "title": "Edit",
+    "subtitle": "Your are editing {name}."
+  },
+  "ens_list_page": {
+    "table": {
+      "name": "Name",
+      "link": "Link",
+      "assigned_to": "Assigned To"
+    },
+    "assigned_to_land": "Land ({landId})",
+    "assigned_to_estate": "Estate ({landId})",
+    "button": {
+      "assign": "Use as Link",
+      "edit": "Edit Link",
+      "use_as_alias": "Use as Alias"
+    },
+    "empty_names": "It looks like you don't have any Names.{br} {link} to get started.",
+    "items": "{count} {count, plural, one {result} other {results}}",
+    "alias_popup": "This name is being used by your profile but it can still be assigned"
+  },
+  "error_page": {
+    "or": "or try",
+    "reload": "reloading the page",
+    "subtitle": "There was an error, this is all we know:",
+    "support": "Contact support",
+    "title": "Oops!"
+  },
+  "estate_editor": {
+    "title_edit": "Edit Estate",
+    "subtitle_edit": "Click to add or remove parcels",
+    "title_create": "Build Estate",
+    "subtitle_create": "Click on adjacent parcels to build your Estate",
+    "subtitle_form": "Write a name and description for your Estate",
+    "name_label": "Name",
+    "name_placeholder": "My Estate...",
+    "description_label": "Description",
+    "description_placeholder": "Some description...",
+    "add_limit_reached": "You can add a maximum of {max} parcels at once",
+    "remove_limit_reached": "You can remove a maximum of {max} parcels at once",
+    "needs_two_txs": "This change will send 2 transactions: one to add {toAdd} {toAdd, plural, one {parcel} other {parcels}} and another one to remove {toRemove} {toRemove, plural, one {parcel} other {parcels}}"
+  },
+  "export_modal": {
+    "action": "Download",
+    "description": "You can export your Scene for use in the {sdk_link}, or the Builder. This is a great way to share Scenes and collaborate with friends! Any changes made to your Scene using the SDK will not be reflected in the Builder.",
+    "loading": "Downloading...",
+    "title": "Download Scene"
+  },
+  "global": {
+    "avatar": "Avatar",
+    "activity": "Activity",
+    "approved_tx": "Approved",
+    "back": "back",
+    "blog_post": "blog post",
+    "amount": "Amount",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "add": "Add",
+    "buy": "buy",
+    "continue": "Continue",
+    "create": "Create",
+    "dismiss": "Dismiss",
+    "done": "done",
+    "email": "email",
+    "error_ocurred": "An error ocurred",
+    "eth_address": "ETH address",
+    "finish": "Finish",
+    "free": "Free",
+    "here": "here",
+    "item": "Item",
+    "learn_more": "Learn more",
+    "loading": "Loading",
+    "mint": "Mint",
+    "new": "New",
+    "new_scene": "New scene",
+    "delete": "Delete",
+    "edit": "Edit",
+    "next": "next",
+    "not_found": "Not found",
+    "optional": "optional",
+    "or": "or",
+    "project": "Scene",
+    "read_more": "Read more",
+    "retry_tx": "Retry",
+    "save": "Save",
+    "send": "Send",
+    "share": "Share",
+    "sign_in_required": "You need to {link} to access this page.",
+    "sign_in": "Sign in",
+    "sign_up": "Sign up",
+    "submit": "Submit",
+    "subscribe": "Subscribe",
+    "terms_and_conditions": "Terms & Conditions",
+    "view_more": "View More",
+    "click_here": "Click here",
+    "proceed": "Proceed",
+    "open_in_editor": "Open in editor",
+    "address": "Address",
+    "balance": "Balance",
+    "balances": "Balances",
+    "revoke": "Revoke",
+    "set": "Set",
+    "settings": "Settings",
+    "yes": "Yes",
+    "no": "No",
+    "name": "Name",
+    "category": "Category",
+    "rarity": "Rarity",
+    "body_shape": "Body Shape",
+    "body_shape_plural": "Body Shapes",
+    "size": "Size",
+    "hash": "Hash",
+    "publish": "Publish",
+    "published": "Published",
+    "description": "Description",
+    "urn": "URN",
+    "order": {
+      "newest": "Newest",
+      "name_asc": "Name ↑",
+      "name_desc": "Name ↓"
+    },
+    "total": "Total",
+    "parcel_plural": "Parcels",
+    "estate_plural": "Estates",
+    "none": "None",
+    "emote": "Emote"
+  },
+  "navigation": {
+    "scenes": "Scenes",
+    "land": "Land",
+    "collections": "Collections",
+    "names": "Names",
+    "curation": "Curation"
+  },
+  "list": {
+    "two": "{first} and {second}",
+    "three": "{first}, {second} and {third}",
+    "more": "{count} more"
+  },
+  "home_page": {
+    "import_scene": "Import Scene",
+    "no_projects": "It looks like you don't have any Scenes.{br}{link} to get started.",
+    "no_projects_guest": "Your Scenes have been uploaded to the Cloud{br}{sign_in} to view them.",
+    "project_actions": {
+      "delete_project": "Delete",
+      "duplicate_project": "Duplicate",
+      "export_project": "Download",
+      "unpublish": "Unpublish"
+    },
+    "sort": {
+      "name": "Name",
+      "newest": "Newest",
+      "size": "Size"
+    },
+    "start": "Start building",
+    "subtitle": "With easy-to-use tools and hundreds of 3D items to choose from, the Builder makes world building fun. Let your creativity loose.",
+    "templates_title": "Choose the size of your Scene to get started",
+    "title": "Build something Cool!",
+    "results": "{count} {count, plural, one {result} other {results}}",
+    "from_scene_pool": "From The Scene Pool"
+  },
+  "import_modal": {
+    "action": "Import",
+    "action_many": "Import {count} Scenes",
+    "cta": "Drag your Scene .zip file here, or {action}",
+    "description": "You can import any Scene made with the Builder!",
+    "invalid_file": "Invalid file",
+    "title": "Import Scene",
+    "upload_manually": "Browse your computer"
+  },
+  "itemdrawer": {
+    "opensea_credit": "Powered by {link}",
+    "edit_asset_pack": "Edit",
+    "empty_ground": "No Ground",
+    "no_results": "No results",
+    "results": "Results",
+    "search": "Search assets",
+    "title": "Asset Packs",
+    "search_items": "Search items"
+  },
+  "item_dropdown": {
+    "placeholder": "Select an item",
+    "no_items": "No valid items found"
+  },
+  "collection_dropdown": {
+    "placeholder": "Select a collection",
+    "no_collections": "No valid collections were found"
+  },
+  "layout_picker": {
+    "columns": "columns",
+    "rows": "rows"
+  },
+  "metrics": {
+    "bodies": "bodies",
+    "entities": "entities",
+    "height": "height",
+    "materials": "materials",
+    "meshes": "meshes",
+    "textures": "textures",
+    "too_many": "Too many {metric}",
+    "triangles": "triangles"
+  },
+  "mobile_page": {
+    "desktop_too_narrow": "The Builder doesn't work on this resolution! Try making this window wider if you can.",
+    "gallery_title": "Check out work from Builder users!",
+    "learn_more": "Learn more about the Builder",
+    "message": "The Builder is only available on desktop right now. Sign up to receive updates and check it out on your computer.",
+    "reminder_body": "Hey there!\n\nWhoops! It looks like you tried to use the Builder from a mobile device!\nThe Builder only runs on desktop and laptop computers. Grab your nearest computer, and try again at https://builder.unicial.org\n\nHappy building!\n\nThe Decentraland Team",
+    "reminder_subject": "Reminder: Try out Decentraland's Builder",
+    "secondary_hero": {
+      "action": "Send yourself a reminder",
+      "title": "Want to build something when you get to your computer?"
+    },
+    "success": "Thanks, we will keep you posted!"
+  },
+  "scene_list_page": {
+    "projects_title": "Scene Pool",
+    "no_projects": "It looks like we don't have any Scenes",
+    "filters": {
+      "creator-contest-2019-12": "Creator Contest (Submission)",
+      "qualified-creator-contest-2019-12": "Creator Contest",
+      "all_groups": "All collections",
+      "all_users": "All users",
+      "only_me": "Only me",
+      "newest": "Newest",
+      "likes": "Likes",
+      "items": "Items",
+      "smart_items": "Smart items",
+      "size": "Size",
+      "name": "Name"
+    }
+  },
+  "public_page": {
+    "made_with": "Scene made with Builder",
+    "made_by": "Scene by",
+    "try_it_out": "try it out",
+    "parcel_count": "{parcels} {parcels, plural, one {parcel} other {parcels}}",
+    "item_count": "{items} {items, plural, one {item} other {items}}",
+    "likes": "{likes} {likes, plural, one {like} other {likes}}"
+  },
+  "not_found_page": {
+    "back": "Back to your Scenes",
+    "subtitle": "Sorry, we couldn't find the Scene you were looking for",
+    "title": "404"
+  },
+  "land_page": {
+    "name": "Name",
+    "coords": "Coords",
+    "owner": "Owner",
+    "operator": "Operator",
+    "operators": "Operators",
+    "type": "Type",
+    "online_scenes": "Online Scenes",
+    "none": "None",
+    "results": "{count} {count, plural, one {result} other {results}}",
+    "owner_permission": "These are lands you don't own, but the owner gave you permission to use them."
+  },
+  "land_detail_page": {
+    "transfer": "Transfer",
+    "set_operator": "Set Operator",
+    "assign_name": "Set link",
+    "build_estate": "Build Estate",
+    "add_or_remove_parcels": "Add Or Remove Parcels",
+    "dissolve_estate": "Dissolve Estate",
+    "online_scenes": "Online Scenes",
+    "none": "None",
+    "add_scene": "Add Scene",
+    "assigned_names": "Assigned names",
+    "description": "Description",
+    "owner": "Owner",
+    "operators": "Operators",
+    "total_land": "Total Land",
+    "empty_land": "Empty Land",
+    "unset_ens_content": {
+      "title": "Are you sure?",
+      "text": "Unassigning the link will cause {link} not to take you to {land} anymore. Do you want to proceed?"
+    }
+  },
+  "land_assign_ens_page": {
+    "title": "Use {name} as link",
+    "subtitle": "This link will take you to {land}",
+    "set_name_message": "Before you can assign this name to your land, you need to submit 2 transactions: The first transaction allows you to use your name as a link and the second transaction links your name to your LAND.",
+    "set_resolver": "Set Resolver",
+    "set_resolver_explanation": "This allows your name to be linked to a land",
+    "set_content": "Set Content",
+    "set_content_explanation": "This resolves your name with a link to your land in Decentraland"
+  },
+  "ens_select_land_page": {
+    "title": "Use {name} as a link",
+    "subtitle": "Select a land where the link should point to:",
+    "land_selected": "Selection:",
+    "already_assigned": "Already assigned"
+  },
+  "land_select_ens_page": {
+    "title": "Select a Name",
+    "subtitle": "It will be used as a link to {land}",
+    "empty_options_message": "You don't have any available names. To assign a name to your LAND, you first need to claim it.",
+    "claim_new_name": "Claim a new name",
+    "select_name_title": "My names",
+    "select_name_placeholder": "Choose a name...",
+    "click_to_claim_new_name": "{click_here} to claim a new name",
+    "name_assigned": "This name has been assigned to this land"
+  },
+  "ipfs_api": {
+    "not_redirected": "If you are not redirected"
+  },
+  "claim_name_fat_finger_modal": {
+    "title": "Please confirm your new name",
+    "description": "You have chosen {name}. Re-enter your name to confirm your selection.",
+    "ok_message": "Congratulations the name {name} is yours.",
+    "name_placeholder": "Your unique name",
+    "names_different": "Names do not match"
+  },
+  "migrate_page": {
+    "step_one_title": "Migrate your account",
+    "step_one_message_line_one": "In order to provide a seamless experience across our products, we have switched the Builder's account system from email to wallet based. This means that you will need to connect an Ethereum wallet to store your scenes in the Cloud. If you don't have a wallet you can learn more about how to get one {link}.",
+    "step_one_link": "here",
+    "step_one_message_line_two": "If you had Scenes stored in your email account, you can migrate them to your wallet account using this page.",
+    "step_one_cta": "Start Migration",
+    "step_two_title": "Login with your email",
+    "step_two_message": "Please login with your email account to find the Scenes that need to be migrated.",
+    "step_two_cta": "Login",
+    "step_three_title": "Connect your wallet",
+    "step_three_message": "Please connect your wallet to continue. If you don't have a wallet here's a {link} to get one.",
+    "step_three_link": "beginners guide",
+    "step_three_cta": "Connect",
+    "step_three_error": "Please install {metamask} or other Ethereum wallet to continue",
+    "step_four_title": "Migrate your Scenes",
+    "step_four_message": "Migrate all Scenes and asset packs under your email account into your wallet account.",
+    "step_four_cta": "Migrate",
+    "projects_title": "The following Scenes will be migrated:"
+  },
+  "operator_page": {
+    "title": "Set Operator",
+    "subtitle": "Your are setting an operator for {name}.",
+    "address": "Address",
+    "undo": "Undo",
+    "revoke": "Revoke",
+    "invalid_address": "Invalid address"
+  },
+  "popups": {
+    "metrics_help": "See metrics here!",
+    "shortcuts_help": "See shortcuts here!"
+  },
+  "project_card": {
+    "items": "items",
+    "confirm_delete_content": "Are you sure you want to delete your Scene \"{title}\"? This operation is not reversible",
+    "confirm_delete_header": "Delete \"{title}\""
+  },
+  "item_card": {
+    "move_to_collection": "Move to collection",
+    "confirm_delete_content": "Are you sure you want to delete your item \"{name}\"? This operation is not reversible",
+    "confirm_delete_header": "Delete \"{name}\""
+  },
+  "project_fields": {
+    "description_field_label": "Description",
+    "description_field_placeholder": "No description",
+    "title_field_label": "Title",
+    "title_field_placeholder": "Scene title"
+  },
+  "project_layout_picker": {
+    "max_area_error": "Your Scene can't have more than {area} parcels",
+    "min_area_error": "Your Scene is too small"
+  },
+  "quota_exceeded_modal": {
+    "retry": {
+      "description": "We were unable to save your work",
+      "title": "On snap!"
+    },
+    "sign_in": {
+      "description": "You've reached the limit of your browser's storage. Please sign in to continue",
+      "title": "Ummm..."
+    }
+  },
+  "scene_detail_page": {
+    "actions": {
+      "duplicate": "Duplicate",
+      "download": "Download",
+      "delete": "Delete",
+      "unpublish": "Unpublish"
+    },
+    "published_in": "Published In",
+    "no_deployments": "This Scene has not been published in the Metaverse yet.",
+    "online": "Online",
+    "unsynced": "Unsynced",
+    "status": "Status",
+    "location": "Location",
+    "description": "Description"
+  },
+  "shortcuts": {
+    "delete": "Delete item",
+    "duplicate": "Duplicate item",
+    "export": "Download Scene",
+    "hold": "Hold",
+    "move": "Toggle arrows",
+    "move_camera": "Move camera",
+    "precision": "Ignore snap-to-grid",
+    "preview": "Preview",
+    "redo": "Redo",
+    "reset": "Reset item",
+    "reset_camera": "Reset camera",
+    "rotate": "Toggle orbits",
+    "scale": "Toggle scaling",
+    "shortcut_reference": "Shortcut reference",
+    "toggle_colliders": "Show colliders",
+    "toggle_sidebar": "Toggle sidebar",
+    "undo": "Undo",
+    "zoom_in": "Zoom in",
+    "zoom_out": "Zoom out",
+    "multiselect": "Select multiple items"
+  },
+  "shortcuts_modal": {
+    "editor_shortcuts": "Editor",
+    "item_shortcuts": "Item",
+    "other_shortcuts": "Other",
+    "title": "Shortcuts"
+  },
+  "sync": {
+    "error": "{errorCount} {errorCount, plural, one {scene} other {scenes}} failed to be uploaded",
+    "loading": "Uploading...",
+    "retry": "Retry",
+    "success": "All Scenes saved successfully!"
+  },
+  "create_modal": {
+    "title": "Create a Scene",
+    "name_subtitle": "Set a name and a description for your scene",
+    "size_subtitle": "Set the size of your new scene",
+    "name_label": "Name",
+    "description_label": "Description",
+    "description_placeholder": "Some description..."
+  },
+  "templates": {
+    "big": "Big (2x3)",
+    "custom_layout": {
+      "title": "Custom",
+      "up_to": "Up to {max} parcels"
+    },
+    "description": "{dimensions} - about {amount} items max",
+    "medium": "Standard (2x2)",
+    "small": "Mini (1x1)"
+  },
+  "activity_page": {
+    "latest_activity": "Latest Activity",
+    "clear_history": "Clear History",
+    "empty": "You have no activity yet.",
+    "clear_history_modal": {
+      "title": "Are you sure?",
+      "text": "You are about to clear your transaction history. Do you want to proceed?"
+    }
+  },
+  "settings_page": {
+    "authorizations": "Authorizations",
+    "disclaimer": "You can assign other addresses to operate all your parcels or estates on your behalf. They {emphasis} be able to transfer or sell them, they will just be allowed to publish content on them.",
+    "emphasis": "will not",
+    "authorization": "You authorized {address} to operate all your {type} on your behalf.",
+    "authorization_action": "Authorize {address} to operate all your {type} on your behalf.",
+    "copy_address": "Copy Address",
+    "copied": "Copied",
+    "authorizations_title": "Active Authorizations"
+  },
+  "transaction": {
+    "approved": "approved",
+    "unapproved": "unapproved",
+    "approve_token": "You {action} the {contract} contract to operate {token} on your behalf.",
+    "change_profile": "Your name is used as alias for {address}",
+    "transfer": "You transferred {name} to {address}.",
+    "edit": "You edited {name}.",
+    "set_operator_assigned": "You assigned {address} as operator of {name}.",
+    "set_operator_revoked": "You revoked the operator of {name}.",
+    "create_estate": "You created {name}.",
+    "dissolve_estate": "You dissolved {name}.",
+    "edit_estate_add": "You added {count} {count, plural, one {parcel} other {parcels}} to {name}.",
+    "edit_estate_remove": "You removed {count} {count, plural, one {parcel} other {parcels}} from {name}.",
+    "set_manager_assigned": "You assigned {address} as operator of all your {type}.",
+    "set_manager_revoked": "You revoked {address} as operator of all your {type}.",
+    "collection_published": "Published the collection {name}",
+    "collection_approved": "Approved the collection {name}",
+    "collection_rejected": "Rejected the collection {name}",
+    "set_price_and_beneficiary": "You edited the price and/or beneficiary of {name}",
+    "collection_item_minted": "Minted {itemName} for the collection {collectionName} {count, plural, one {once} other {{count} times}}",
+    "collection_items_minted": "Minted {count} items for the collection {collectionName}",
+    "updated_collection_managers": "Updated the collection's {name} managers",
+    "updated_collection_minters": "Updated the collection's {name} minters",
+    "set_collection_on_sale": "Set the collection {name} on sale",
+    "unset_collection_on_sale": "Removed the collection {name} from being on sale",
+    "set_ens_resolver": "Set resolver for the name \"{name}\".",
+    "set_ens_content": "Set redirection content for the name \"{name}\" on {land_link}.",
+    "unset_ens_content": "Removed redirection content for the name \"{name}\".",
+    "allowed_claim_mana": "Allowed MANA to claim a new name",
+    "disallowed_claim_mana": "Disallowed MANA to claim a new name",
+    "claim_name": "Claimed new name: \"{name}\".",
+    "rescue_items": "Approved content of {count} {count, plural, one {item} other {items}} for {collectionName}"
+  },
+  "transfer_page": {
+    "title": "Transfer",
+    "subtitle": "Your are about to transfer {name}.",
+    "disclaimer": "Remember that transferring is an irreversible operation.{br}Please check the address carefully.",
+    "same_owner": "That's already the owner",
+    "invalid_address": "That's not a valid address"
+  },
+  "toasts": {
+    "localstorage": "Scenes are stored in your browser. {sign_in} to save them in the Cloud!"
+  },
+  "topbar": {
+    "bounds_exceeded": "Item out of bounds{br}Move the item inside the boundaries!",
+    "limits_exceeded": "Too many {metric}{br}Try deleting some items!",
+    "up_to_date": "Up to date!{br}All the changes are published",
+    "update_scene": "Update Scene"
+  },
+  "tutorial_modal": {
+    "slide0": {
+      "description": "This is Decentraland’s new Scene builder. Before you get started, let us show you around.",
+      "title": "Welcome to the Builder!"
+    },
+    "slide1": {
+      "description": "To move an object, click and drag the object.",
+      "title": "Moving objects"
+    },
+    "slide2": {
+      "description": "Add objects to your Scene from the sidebar on the right.",
+      "title": "Adding objects"
+    },
+    "slide3": {
+      "description": "Rotate objects by clicking on the Rotate tool and dragging the orbits.",
+      "title": "Arrows and orbits"
+    },
+    "slide4": {
+      "description": "Drag with the left button to rotate the camera. Use the right button to pan.",
+      "title": "Controlling the camera"
+    },
+    "subtitle": "The Builder is super easy to use, here are some tips before you begin",
+    "title": "Get started with the Builder"
+  },
+  "unsupported_browser_page": {
+    "back": "Back to your Scenes",
+    "subtitle": "The Builder does not support your browser.{br}Please visit this page using {chrome} or {firefox}",
+    "title": "Oops!"
+  },
+  "user_menu": {
+    "guest": "Guest",
+    "sign_in": "Sign In",
+    "sign_out": "Sign Out"
+  },
+  "validation": {
+    "project": {
+      "description": {
+        "length": "Description length must be between {min} and {max} characters."
+      },
+      "title": {
+        "length": "Title length must be between {min} and {max} characters."
+      }
+    }
+  },
+  "video_modal": {
+    "title": "Learn more about the Builder",
+    "youtube_id": "cHEblD8xZwI"
+  },
+  "wallet": {
+    "signature_error": "Failed to sign message",
+    "no_wallet": "Wallet not found",
+    "connect_error": "Could not connect wallet",
+    "title": "Connect your wallet to sign in."
+  },
+  "collections_page": {
+    "results": "{count} {count, plural, one {result} other {results}}",
+    "no_items": "No items",
+    "new_item": "New Item",
+    "new_collection": "New Collection",
+    "new_third_party_collection": "New Linked Wearables Collection",
+    "type": "Type",
+    "items": "Items",
+    "collections": "Collections",
+    "single_items": "Single items",
+    "empty_description": "You have no Items or Collections yet. Create a new item or collection, and dress the metaverse in style!"
+  },
+  "curation_page": {
+    "order": {
+      "most_relevant": "Most relevant"
+    },
+    "filter": {
+      "all_status": "All status",
+      "all_assignees": "All assignees",
+      "not_reviewed": "Not reviewed",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "under_review": "Under Review",
+      "to_review": "To Review"
+    },
+    "search_placeholder": "Search between {count} {count, plural, one {result} other {results}} by name or owner address...",
+    "collections": "{count} {count, plural, one {collection} other {collections}}",
+    "empty_collections": "There are no collections to review yet.",
+    "assign_modal": {
+      "unassign": "Unassign",
+      "collection_unassigned": "The {collection_name} collection have been unassigned.",
+      "self_assign": {
+        "title": "Confirm your assignation to {collection_name}",
+        "body": "You will be the responsible of {emphasis}. If needed, you will be able to reassign the collection to another curator.",
+        "emphasis": "reviewing this collection and communicating with the creator in the forum",
+        "success": "The {collection_name} collection have been assigned to you."
+      },
+      "reassign": {
+        "title": "Edit assigned curator for {collection_name} collection",
+        "body": "In case you cannot review this collection, reassign it to another curator. Make sure you let them know about this change.",
+        "success": "The {collection_name} collection have been assigned to {assignee}."
+      }
+    },
+    "error_message_title": "Error",
+    "error_message_body": "Something went wrong... Please try again later.",
+    "assign_success_title": "Collection Assigned",
+    "unassign_success_title": "Collection Unassigned",
+    "curator": "Curator",
+    "confirm_not_assigned_curation_modal": {
+      "title": "Approve collection",
+      "body": "This collection is assigned to {assignee}. If needed, you can still approve it but make sure to let the assigned curator know about it.",
+      "confirm_footer": "Confirm the approval of this collection so it is enabled to be minted.",
+      "confirm_button": "Assign to me and approve collection"
+    }
+  },
+  "collection_row": {
+    "collection": "Collection",
+    "published": "Published",
+    "date": "Date",
+    "assignee": "Assignee",
+    "status": "Status",
+    "discussion": "Discussion",
+    "items": "{count} {count, plural, one {item} other {items}}",
+    "owner": "Owner",
+    "link": "Link",
+    "type": "Type",
+    "type_third_party": "Linked",
+    "type_standard": "Standard",
+    "review_request": "Review request",
+    "forum_post": "Forum Post",
+    "no_forum_post": "Not posted",
+    "to_review": "To review",
+    "under_review": "Under Review",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "disabled": "Disabled",
+    "unassigned": "Unassigned",
+    "assign_to_me": "Assign to me",
+    "you": "you"
+  },
+  "item_detail_page": {
+    "notice": "You need to add your items to a collection before you can publish them",
+    "add_representation": "Add {bodyShape} representation",
+    "change_item_file": "Edit representation"
+  },
+  "third_party_collection_detail_page": {
+    "notice": "Each published item takes 1 Slot. Create a draft-proposal in the DAO to ask for more slots",
+    "search_placeholder": "Search {count} {count, plural, one {item} other {items}}...",
+    "search_info": "{page}-{pageTotal} of {total}",
+    "clear_selection": "Clear selection",
+    "select_all": "Select all {total} items",
+    "selection": "{count, plural, one {# item} other {# items}} selected.",
+    "max_select_count": "You can publish up to {count} items at a time",
+    "slots": "{amount, plural, =0 {No Slots} one {# Slot} other {# Slots}}",
+    "start_adding_items": "Looking good! Start adding items to your new collection",
+    "cant_remove": "You will not be able to add or remove items after publishing them.",
+    "publish_items": "Publish {count, plural, =0 {} one {# item} other {# items}}",
+    "new_items": "New Items",
+    "publish": "Publish",
+    "push_changes": "Push changes",
+    "publish_and_push_changes": "Publish & push changes",
+    "cant_publish": "This collection is still under review, once that process ends you'll be able to publish more items",
+    "cant_publish_items": "You're trying to publish {count} {count, plural, one {item} other {items}}. There are others under review right now",
+    "exceeds_available_slots": "You're exceeding the amount of available slots. Create a proposal in the DAO to add more slots",
+    "cant_publish_and_push_changes": "You're trying to publish {count} {count, plural, one {item} other {items}} and push changes at the same time. Unselect the items to publish to able to push changes"
+  },
+  "collection_detail_page": {
+    "new_item": "New Item",
+    "mint_items": "Mint Items",
+    "on_sale": "On sale",
+    "set_on_sale_popup": "This will allow your collection to be sold in the Decentraland Marketplace.",
+    "unset_on_sale_popup": "This collection is on sale in the Decentraland Marketplace.",
+    "notice": "Cool! Now you can start working on your items. {editor_link} to open the editor or click the edit button on any item.",
+    "start_adding_items": "Looking good! Start adding items to your new collection",
+    "cant_remove": "You will not be able to add or remove items after publishing your collection.",
+    "cant_mint": "This collection is still under review, once that process ends you'll be able to mint items",
+    "cant_push": "This collection is still under review, items can still be minted but will not reflect new changes until approval",
+    "under_review": "Under Review",
+    "push_changes": "Push Changes",
+    "cant_operate": "This collection is still locked, once publication ends you'll be able to operate again",
+    "locked": "Locked",
+    "publish_reason_max_items": "A collection can be published with a max amount of {maxItems} items.",
+    "publish_reason_no_items": "You need to add at least one item to publish your collection.",
+    "publish_reason_items_not_complete": "All items must be complete to publish your collection, check if all the properties are set."
+  },
+  "collection_context_menu": {
+    "add_existing_item": "Add Existing Item",
+    "forum_post": "Forum post",
+    "copy_address": "Copy address",
+    "edit_urn": "Edit URN",
+    "edit_in_bulk": "Edit in bulk",
+    "copy_urn": "Copy URN",
+    "see_in_world": "See in world",
+    "unpublished": "This collection is not published yet",
+    "managers": "Collaborators",
+    "minters": "Minters",
+    "post_to_forum": "Post to forum",
+    "posting": "Posting",
+    "not_posted": "The collection wasn't posted to the forum. You can retry here",
+    "delete_published_collection": "You can't delete a published collection",
+    "change_published_urn": "You can't change the URN once the collection is published"
+  },
+  "collection_item": {
+    "set_price": "set price",
+    "done": "Done",
+    "edit_item": "edit",
+    "mint_item": "mint",
+    "remove_from_collection": "Remove from collection",
+    "edit_price": "Edit price",
+    "see_details": "See details",
+    "edit_urn": "Edit URN",
+    "cannot_edit_urn": "You can't edit the URN once the item is published",
+    "reset_item": "Reset changes"
+  },
+  "collection": {
+    "type": {
+      "unicial": "Collection",
+      "third_party": "Linked Wearables Collection"
+    }
+  },
+  "item": {
+    "blockchain_id": "Blockchain ID",
+    "category": "Category",
+    "rarity": "Rarity",
+    "representation": "Representation",
+    "price": "Price",
+    "beneficiary": "Beneficiary",
+    "supply": "Supply",
+    "collection": "Collection",
+    "edit_urn": "Edit URN",
+    "copy_urn": "Copy URN",
+    "type": {
+      "wearable": "Wearable",
+      "emote": "Emote"
+    }
+  },
+  "edit_price_and_beneficiary_modal": {
+    "title": "Set price and address for \"{name}\"",
+    "for_me": "I'm the beneficiary",
+    "free": "Make it free",
+    "price_label": "Price",
+    "beneficiary_label": "Beneficiary",
+    "beneficiary_popup": "This is the wallet address that will receive MANA when the item is sold for the first time and Royalties when it is resold. You can set a different beneficiary address for each item in a collection."
+  },
+  "confirm_delete": {
+    "content": "Are you sure you want to delete \"{name}\"?"
+  },
+  "publish_collection_modal": {
+    "title": "Publish Collection",
+    "title_tos": "Content Policy",
+    "first_paragraph": "You are about to publish your collection, keep in mind the following things:",
+    "second_paragraph": "You will not be able to add or delete items after you publish your collection.",
+    "third_paragraph": "You won’t be able to change the name of the collection. Please ensure it’s spelled correctly and doesn’t violate intellectual property rights.",
+    "fourth_paragraph": "You will be able to see your items in the marketplace but they will be available for sale once the collection is validated by the DAO.",
+    "items_breakdown_title": "You are about to publish {count} {count, plural, one {item} other {items}}. The MANA fee for each collection goes to the Decentraland DAO, where it is used to support the growth of the community through grants, events, and prizes.",
+    "tos_title": "I hereby represent and warrant that:",
+    "tos_first_condition": "1: The submitted Wearable/s is in full compliance with the {terms_of_use} and {content_policy}, which I acknowledge and accept.",
+    "tos_second_condition": "2: I have sufficient Intellectual Property Rights over the submitted Wearable/s.",
+    "tos_third_condition": "3: I acknowledge that the DAO may refuse to mint the Wearable/s based on infringements to the Content Policy and Terms of Use. I also acknowledge that the proposal fee won’t be reimbursed in case of rejection.",
+    "invalid_email": "The given email is not valid.",
+    "terms_of_use": "Terms of Use",
+    "content_policy": "Content Policy",
+    "accept_by_publishing": "By clicking Publish you are accepting our terms",
+    "not_enough_mana": "You don't have enough {symbol} to publish this collection.",
+    "get_mana": "You can get more using the {link} dapp.",
+    "unsynced_collection": "The collection you are trying to publish is different from the one we have in our servers. Please, refresh the browser and try again."
+  },
+  "publish_third_party_collection_modal": {
+    "title": "Publish Linked Items",
+    "publish_description": "About to use {slotsToUse, plural, one {# slot} other {# slots}} from {availableSlots} available slots to publish \"{collectionName}\".",
+    "push_changes_description": "About to push changes to {itemsWithChanges, plural, one {# item} other {# items}} for \"{collectionName}\".",
+    "publish_and_push_changes_description": "About to use {slotsToUse, plural, one {# slot} other {# slots}} from {availableSlots} available slots to publish \"{collectionName}\" and changes will be pushed to {itemsWithChanges, plural, one {# item} other {# items}}."
+  },
+  "mint_items_modal": {
+    "title": "Mint Items",
+    "add_item": "Add Item",
+    "limit_reached": "You can only mint {max} items per transaction",
+    "no_items": "You have no items available to mint for \"{name}\"",
+    "unsynced_warning": "Some items have changes that have not been approved yet."
+  },
+  "reset_item_modal": {
+    "title": "Reset Changes",
+    "content": "The item is currently different from the one that has been previously approved by the committee. {br}The version you are seeing now does not correspond to the one visible in the marketplace and in the game. {br}You can push the changes for the committee to review this new version, or you can click on the confirm button to reset the item to it's original state."
+  },
+  "sell_collection_modal": {
+    "title": "Do you want to sell your items?",
+    "turn_on_description": "By turning this switch on your collection will be available for purchase in the Decentraland Marketplace.",
+    "turn_on": "Turn On",
+    "turn_off_description": "By turning this switch off your collection will not longer be available for purchase.",
+    "turn_off": "Turn Off",
+    "unsynced_warning": "Some items have changes that have not been approved yet."
+  },
+  "manage_collection_role_modal": {
+    "manager": {
+      "title": "Collaborators",
+      "subtitle": "If you collaborated with other creators when making this collection, enter their ETH address",
+      "add_new": "Add Collaborator",
+      "empty": "No collaborators yet, start by"
+    },
+    "minter": {
+      "title": "Minters",
+      "subtitle": "Enter the ETH address you want to allow for minting your items",
+      "add_new": "Add Minter",
+      "empty": "No minters yet, start by"
+    },
+    "adding_one": "adding one!"
+  },
+  "push_collection_changes_modal": {
+    "title": "Push Changes",
+    "description": "Changes have been made to the collection or the items contained by it since the last time a curator has reviewed them.{br}In order to have this changes reflected on the marketplace and in the game, they have to be reviewed and approved again by the committee.{br}Are you sure you want to push the changes for review?"
+  },
+  "collection_image": {
+    "no_items": "No Items"
+  },
+  "collection_card": {
+    "item_count": "{count} {count, plural, one {item} other {items}}",
+    "confirm_delete_content": "Are you sure you want to delete your collection \"{name}\"? This operation is not reversible",
+    "confirm_delete_header": "Delete \"{name}\""
+  },
+  "item_editor": {
+    "open": "Open editor",
+    "top_panel": {
+      "approve": "Approve",
+      "reject": "Reject",
+      "enable": "Enable",
+      "disable": "Disable",
+      "rejection_modal": {
+        "discussion": "Discussion",
+        "forum_link": "Forum link",
+        "go_to_forum": "Please go to related forum discussion and let the creator know your decision.",
+        "veredict_explanation": "Can you tell us why?",
+        "visit_activity": "You can check your {activity_link} to monitor the transaction",
+        "reject_curation": {
+          "title": "Reject Changes",
+          "subtitle": "I guess the changes are not good enough, huh?",
+          "action": "Reject"
+        },
+        "disable_collection": {
+          "title": "Disable Collection",
+          "subtitle": "The collection will not be available anymore. Don't worry, you will be able to enable it again later.",
+          "tx_pending": "Waiting for the disable collection transaction to confirm",
+          "action": "Disable"
+        }
+      }
+    },
+    "left_panel": {
+      "title": "My Items",
+      "actions": {
+        "new_item": "New Item",
+        "new_collection": "New Collection",
+        "add_existing_item": "Add Existing Item",
+        "edit_name": "Edit Name"
+      },
+      "items": "Items",
+      "collections": "Collections",
+      "items_count": "{count} items",
+      "invalid_representation_tooltip": "This item doesn't have a {bodyShape} representation",
+      "no_items_to_review": "No items left to review",
+      "empty_collection": "Empty collection, add some items first!"
+    },
+    "center_panel": {
+      "disabled_animation_dropdown": "There needs to be at least one visible item in order to select an avatar animation"
+    },
+    "right_panel": {
+      "properties": "Properties",
+      "details": "Details",
+      "basics": "Basics",
+      "overrides": "Overrides",
+      "replaces": "Replaces",
+      "replaces_info": "When a user equips your item, any other items in the category you select will be unequipped. Users must reequip them after removing your item.",
+      "hides": "Hides",
+      "hides_info": "When a user equips your item, any other items in the category you select will stay equipped, but they won't be rendered. Users will only see their other items reappear after removing your item.",
+      "tags": "Tags",
+      "select_placeholder": "Select an option",
+      "request_for_changes": "Request for changes",
+      "request_for_changes_explanation": "If you want to make changes to {name} please ask a committee member for authorization in the forum"
+    }
+  },
+  "emote": {
+    "category": {
+      "simple": "Simple",
+      "loop": "Loop"
+    }
+  },
+  "wearable": {
+    "supply": "{formatted} {count, plural, one {unit} other {units}}",
+    "rarity": {
+      "unique": "Unique",
+      "mythic": "Mythic",
+      "legendary": "Legendary",
+      "epic": "Epic",
+      "rare": "Rare",
+      "uncommon": "Uncommon",
+      "common": "Common"
+    },
+    "color": {
+      "skin": "Skin color",
+      "eye": "Eye color",
+      "hair": "Hair color"
+    },
+    "category": {
+      "body_shape": "Body Shape",
+      "earring": "Earring",
+      "eyebrows": "Eyebrows",
+      "eyes": "Eyes",
+      "eyewear": "Eyewear",
+      "facial_hair": "Facial Hair",
+      "feet": "Feet",
+      "hair": "Hair",
+      "hat": "Hat",
+      "head": "Head",
+      "helmet": "Helmet",
+      "lower_body": "Lower Body",
+      "mask": "Mask",
+      "mouth": "Mouth",
+      "tiara": "Tiara",
+      "top_head": "Top Head",
+      "upper_body": "Upper Body",
+      "skin": "Skin"
+    }
+  },
+  "time": {
+    "hours": "{amount}h",
+    "minutes": "{amount}m",
+    "seconds": "{amount}s"
+  },
+  "analytics": {
+    "users": "Weekly Users",
+    "sessions": "Weekly Sessions",
+    "median_session_time": "Med. Session Time",
+    "max_concurrent_users": "Peak Users",
+    "notice": "*Metrics are refreshed weekly every Monday"
+  },
+  "maintainance": {
+    "notice": "We're currently under maintainance, we'll be back soon!"
+  },
+  "networks": {
+    "ethereum": "Ethereum",
+    "matic": "Polygon"
+  },
+  "intro_popup": {
+    "title": "Introducing Polygon UCC",
+    "blog_link": "blog post",
+    "account_link": "Account dApp",
+    "manage_account": "Account",
+    "content": "Polygon UCC will allow you to make transactions much faster and cheaper.{br}You can learn more about Polygon UCC in our {blog_link}, and don't forget you can start managing your coins in our new {account_link}.{br}Click your avatar, select {manage_account} and start conquering the Metaverse.",
+    "dismiss": "Got It!"
+  },
+  "toast": {
+    "meta_transaction_failure": {
+      "title": "Meta transaction",
+      "body": "There was an error sending the meta transaction.{br}Please try again or join our {discord_link} to get support."
+    },
+    "deploy_item_failure": {
+      "title": "Error on Item",
+      "body": "Fail to upload the item \"{itemName}\" from \"{collectionName}\".{br}The item size is too big for the max size of {size}"
+    }
+  },
+  "sagas": {
+    "collection": {
+      "invalid_character": "Invalid character! The \":\" is not allowed in names",
+      "missing_salt": "The collection has no salt",
+      "collection_locked": "The collection is locked"
+    },
+    "item": {
+      "invalid_identity": "Invalid Identity",
+      "invalid_character": "Invalid character! The \":\" is not allowed in names or descriptions",
+      "cant_save_published": "Item should not be published to save it",
+      "not_published": "Item must be published",
+      "cant_save_without_collection": "Can't save a published item without a collection",
+      "not_found": "Not found"
+    }
+  },
+  "status": {
+    "under_review": "Under Review",
+    "loading": "Loading...",
+    "synced": "Synced",
+    "unsynced": "Unsynced"
+  },
+  "editor_preview": {
+    "loading_unity_and_base_wearables": "Loading Unity and base Wearables...",
+    "loading_base_wearables": "Loading base Wearables...",
+    "loading_unity": "Loading Unity..."
+  },
+  "approval_flow": {
+    "loading": {
+      "title": "Loading...",
+      "subtitle": "Preparing collection for approval"
+    },
+    "rescue": {
+      "title": "Approve Items",
+      "subtitle": "Please approve the items and their hashes",
+      "confirm": "Confirm",
+      "items_exceed_limit": {
+        "title": "Collection exceeds the maximum number of items",
+        "content": "Multiple transactions will be made. Be aware that you'll be asked to sign them."
+      }
+    },
+    "consume_slots": {
+      "title": "Approve Items",
+      "subtitle": "Please approve the following items",
+      "more_items": "And {count} other {count, plural, one {item} other {items}}",
+      "confirm": "Confirm"
+    },
+    "upload": {
+      "title": "Upload Files",
+      "subtitle": "Please upload the content of the items",
+      "confirm": "Upload"
+    },
+    "approve": {
+      "title": "Enable Collection",
+      "subtitle": "Please enable the collection to be minted",
+      "confirm": "Enable"
+    },
+    "error": {
+      "title": "Error",
+      "subtitle": "Something went wrong..."
+    },
+    "success": {
+      "title": "Collection Approved!",
+      "subtitle": "Thank you for revieweing this collection"
+    }
+  }
+}

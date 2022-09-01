@@ -1,0 +1,121 @@
+.TransactionDetail {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.TransactionDetail .left {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.TransactionDetail .right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: none;
+  margin-left: 16px;
+}
+
+.TransactionDetail .left .image {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 16px;
+  flex: none;
+}
+
+.TransactionDetail .left .image .dcl.mana {
+  font-size: 48px;
+  height: 48px;
+  padding-top: 10px;
+  margin-left: 2px;
+  margin-top: -2px;
+  display: flex;
+}
+
+.TransactionDetail .left .text {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.TransactionDetail .left .text .description {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.TransactionDetail .left .description .dcl.blockie {
+  margin-left: 3px;
+}
+
+.TransactionDetail .left .text .timestamp {
+  color: var(--secondary-text);
+  margin-left: 8px;
+}
+
+.TransactionDetail .right .status {
+  display: flex;
+  color: var(--secondary-text);
+}
+
+.TransactionDetail .right .status .description {
+  text-transform: capitalize;
+}
+
+.TransactionDetail .right .status .description + * {
+  margin-left: 8px;
+}
+
+.TransactionDetail .right .status.confirmed,
+.TransactionDetail .right .status.replaced {
+  color: var(--neon-blue);
+}
+
+.TransactionDetail .right .status.reverted {
+  color: var(--danger);
+}
+
+.TransactionDetail .right .status .spinner {
+  position: relative;
+  width: 20px;
+  height: 16px;
+  margin-top: 3px;
+}
+
+.TransactionDetail .left .image .Profile.blockie.huge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.TransactionDetail .left .image .CollectionImage .ItemImage:not(:first-child) {
+  display: none;
+}
+
+.TransactionDetail .left .image .Profile.blockie.huge .dcl.blockie {
+  margin: 0px;
+}
+
+@media (max-width: 768px) {
+  .TransactionDetail .right .status .description,
+  .TransactionDetail .left .text .timestamp {
+    display: none;
+  }
+}
+
+.TransactionDetail .slot-image {
+  background-image: url('../../../../images/empty-slots.svg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px 30px;
+}

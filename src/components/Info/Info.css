@@ -1,0 +1,7 @@
+.ui.popup.inverted.info-popup {
+  z-index: 3001; /* Over modals, which have a z-index of 3000 */
+}
+
+.info-icon {
+  cursor: pointer;
+}

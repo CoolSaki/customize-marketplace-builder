@@ -1,0 +1,113 @@
+.ProjectCard {
+  position: relative;
+  border-radius: 15px;
+  padding: var(--homepage-card-padding);
+  background: rgba(var(--bluish-steel-raw), 1);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-right: var(--homepage-card-margin);
+  margin-bottom: var(--homepage-card-margin);
+}
+
+.ProjectCard .deployment-status {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 10px;
+  height: 10px;
+}
+
+.ProjectCard .project-data {
+  width: 100%;
+  color: var(--text);
+  z-index: 1;
+}
+
+.ProjectCard .project-data .project-card-img {
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.ProjectCard .title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 175px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  max-height: 50px;
+}
+
+.ProjectCard .description {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #96a1db;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+
+.ProjectCard .overlay {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: var(--background);
+  opacity: 0.3;
+}
+
+.ProjectCard:hover {
+  z-index: 999;
+}
+
+.ProjectCard:hover .options-dropdown.ui.dropdown > .dropdown.icon {
+  visibility: visible;
+}
+
+.ProjectCard .options-dropdown.ui.dropdown > .dropdown.icon {
+  visibility: hidden;
+}
+
+.ProjectCard .options-dropdown .icon:before {
+  color: var(--text) !important;
+}
+
+.ProjectCard .title-wrapper {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 15px;
+  margin-bottom: 11px;
+}
+
+.ProjectCard .Icon.is-uploading {
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.ProjectCard .error-indicator {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/save-error.svg);
+  background-repeat: no-repeat;
+  background-position: center -2px;
+  margin-top: 3px;
+  margin-left: 7px;
+}

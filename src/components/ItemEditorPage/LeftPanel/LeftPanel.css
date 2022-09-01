@@ -1,0 +1,24 @@
+.LeftPanel {
+  width: var(--item-editor-panel-width);
+  flex: none;
+  background-color: var(--background);
+  position: relative;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.LeftPanel > .empty {
+  width: 100%;
+  height: calc(100% - 52px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 32px;
+}
+
+.LeftPanel > .empty .subtitle {
+  color: var(--secondary-text);
+}

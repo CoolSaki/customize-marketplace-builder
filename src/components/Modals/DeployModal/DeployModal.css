@@ -1,0 +1,153 @@
+.ui.small.modal.DeployModal {
+  width: auto;
+  border-radius: 12px;
+}
+
+.DeployModal .progress-bar-container {
+  width: 100%;
+  background: var(--secondary-on-modal);
+  border-radius: 16px;
+}
+
+.DeployModal .progress-bar {
+  background: var(--primary);
+  height: 16px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.DeployModal .progress-bar.active:after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  border-radius: 16px;
+  -webkit-animation: progress-active 2s ease infinite;
+  animation: progress-active 2s ease infinite;
+}
+
+.DeployModal .choice-form {
+  width: 560px;
+  margin: 0px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DeployModal .modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.DeployModal .modal-header .ui.header.modal-title {
+  margin-bottom: 0px;
+}
+
+.DeployModal .ui.header.modal-title {
+  font-size: 21px;
+  margin-bottom: 8px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.DeployModal .modal-subtitle {
+  font-size: 17px;
+  font-weight: 100;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.DeployModal .choice-form .options {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.DeployModal .choice-form .card {
+  background: rgba(var(--purplish-grey-raw), 0.32);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(50% - 12px);
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+.DeployModal .choice-form .card + .card {
+  margin-left: 24px;
+}
+
+.DeployModal .choice-form .card .title {
+  font-size: 17px;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.DeployModal .choice-form .card .description {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
+.DeployModal .choice-form .card .ui.button {
+  width: 100%;
+}
+
+.DeployModal .card .thumbnail {
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 45%;
+}
+
+.DeployModal .card .thumbnail.deploy-to-pool {
+  background-image: url('../../../images/deploy-to-pool.svg');
+  width: 78px;
+}
+
+.DeployModal .card .thumbnail.deploy-to-land {
+  background-image: url('../../../images/deploy-to-land.svg');
+  width: 70px;
+}
+
+.DeployModal .ui.button {
+  height: 36px;
+  font-weight: 400;
+}
+
+.DeployModal .ui.button.hollow {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.DeployModal .error {
+  visibility: hidden;
+  user-select: none;
+  color: var(--primary);
+  margin-top: 20px;
+}
+
+.DeployModal .error.visible {
+  visibility: visible;
+}
+
+.DeployModal .ui.button + .ui.button {
+  margin-left: 20px;
+}

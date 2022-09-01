@@ -1,0 +1,1445 @@
+{
+  "atlas": {
+    "locate_land": "定位下一地块",
+    "zoom_in": "放大",
+    "zoom_out": "缩小"
+  },
+  "authorization_modal": {
+    "title": "授权{token}",
+    "description": "欲继续操作，您需要授权{contract}合同代表您操作{token}令牌。只需执行一次.",
+    "authorize": "授权{contract_link}合约代表您操作{symbol}",
+    "pending_tx": "待处理的交易，请单击微调器以转到活动详细状态"
+  },
+  "add_existing_item_modal": {
+    "title": "添加现有项目",
+    "subtitle": "选择一个不属于集合的项目"
+  },
+  "move_item_to_collection_modal": {
+    "title": "将项目移至收藏夹",
+    "subtitle": "选择要将项目移动到的集合",
+    "confirm": "移动"
+  },
+  "asset_pack": {
+    "confirm_delete": {
+      "action": "清除Asset Pack",
+      "back": "御宇",
+      "description": "您将要删除它Asset Pack。此操作无法撤消。",
+      "title": "你确定吗？"
+    },
+    "default_name": "我的Asset Pack",
+    "default_name_suffix": "我的Asset Pack ({suffix})",
+    "edit_asset": {
+      "action": "继续",
+      "action_skip": "跳过评论",
+      "category": {
+        "label": "类别"
+      },
+      "description_create": "查看您的assets，添加标签等",
+      "description_edit": "查看您的assets，添加标签等",
+      "errors": {
+        "max_name_length": "Asset名称长度最多只能为{count}个字符",
+        "min_name_length": "资产名称长度必须至少为{count}个字符",
+        "tag_count": "您最多只能指定{count}个标签"
+      },
+      "ground": {
+        "label": "用作地面"
+      },
+      "name": {
+        "label": "名称",
+        "placeholder": "Asset名称"
+      },
+      "tags": {
+        "label": "标签",
+        "placeholder": "例如 （户外家具楼）"
+      },
+      "title_edit": "修改Asset Pack"
+    },
+    "edit_assetpack": {
+      "action_add_items": "加Assets",
+      "action_create": "创造Asset Pack",
+      "action_delete": "删除Asset Pack",
+      "action_edit": "救Asset Pack",
+      "description_create": "真棒！输入Asset Pack的唯一名称",
+      "description_edit": "真棒！ 输入您的唯一名称Asset Pack. 单击资产进行编辑。",
+      "errors": {
+        "max_title_length": "Asset Pack标题最多只能包含{count}个字符",
+        "min_title_length": "Asset Pack名称的长度必须至少为{count}个字符",
+        "thumbnail_size": "图像文件大小必须小于 {size}"
+      },
+      "items": {
+        "empty": "这Asset Pack个西是空的",
+        "label": "{count} {count, plural, one {Asset} other {Assets}}"
+      },
+      "name": {
+        "label": "名称",
+        "placeholder": "我的新Asset Pack"
+      },
+      "reset": "添加新Assets",
+      "title_edit": "修改Asset Pack"
+    },
+    "exit": {
+      "action": "出口",
+      "back": "回去",
+      "description_create": "您即将退出Asset Pack创建，您要继续吗",
+      "description_edit": "您即将退出Asset Pack更新，您要继续吗？",
+      "title_create": "你确定吗？",
+      "title_edit": "你确定吗？"
+    },
+    "import": {
+      "action": "导入{资产}",
+      "action_many": "导入{count} Asset",
+      "cta": "将Asset的{models_link}文件拖到此处，或{action}",
+      "description_create": "首先将模型添加到Asset Pack",
+      "description_edit": "向您添加更多项目Asset Pack",
+      "errors": {
+        "duplicated": "重复资产",
+        "duplicated_asset": "{name}：此资产包中已经有一个名为\"{existingAsset}\"的资产，其ID为\"{id}\"，请将\"{newAsset}\"的ID更改为另一种",
+        "invalid": "无效资产",
+        "max_file_size": "{name}: 文件大小超过{max}mb的限制"
+      },
+      "title_edit": "创造Asset Pack"
+    },
+    "new_asset_pack": "新的Asset Pack",
+    "progress": {
+      "creating_asset_pack": "创建Asset Pack",
+      "updating_asset_pack": "更新Asset Pack",
+      "uploading_contents": "正在上传Asset Pack内容"
+    },
+    "success": {
+      "continue": "继续工作",
+      "description": "您的Asset Pack已成功上传。 查看项目抽屉以开始使用它。",
+      "title": "全部做完！"
+    },
+    "title_create": "创造Asset Pack"
+  },
+  "banners": {
+    "promo_subtitle": "自定义资产包现在在Decentraland中可用！",
+    "promo_title": "个性化您的世界",
+    "top_banner_action": "学到更多。",
+    "top_banner_left": "9月16日至30日-激烈的在线创作，分享了超过25万美元的奖品。",
+    "top_banner_right": " "
+  },
+  "body_shapes": {
+    "both": "两个都",
+    "male": "男",
+    "female": "女",
+    "null": "没有任何"
+  },
+  "item_types": {
+    "wearable": "可穿戴",
+    "smart_wearable": "智能穿戴"
+  },
+  "avatar_animations": {
+    "idle": "闲",
+    "wave": "挥手",
+    "fistpump": "拳头泵",
+    "robot": "舞蹈",
+    "raiseHand": "举手",
+    "clap": "拍",
+    "money": "扔钱",
+    "kiss": "吻"
+  },
+  "create_collection_modal": {
+    "title": "新系列",
+    "subtitle": "输入新收藏的描述性名称",
+    "label": "名称",
+    "placeholder": "我的大学",
+    "message": "名称最多可以是 {maxLength} 个字符",
+    "error_name_already_in_use": "使用中的名称。 尝试其他"
+  },
+  "create_third_party_collection_modal": {
+    "title": "新的链接可穿戴设备系列",
+    "subtitle": "为您的新集合输入一个描述性名称",
+    "third_party": {
+      "label": "第三者"
+    },
+    "name_field": {
+      "label": "姓名",
+      "message": "名称最多可以是 {maxLength} 个字符"
+    },
+    "urn_suffix_field": {
+      "label": "Id",
+      "message": "我们建议将收款合约地址作为 id 的一部分。只允许使用字母、数字和破折号 (-)"
+    }
+  },
+  "model_metrics": {
+    "triangles": "{count}个三角形",
+    "materials": "{count}个材料",
+    "textures": "{count}个纹理"
+  },
+  "claim_ens_page": {
+    "title": "索取唯一名称",
+    "subtitle": "可以将唯一名称分配给您的化身以用作别名，也可以将它们分配给宗地和地产。{br}为宗地或地产分配名称可以使您创建唯一的URL，例如{exampleLink} 轻松将人们送往您的LAND。 当有人使用您的新网址时，他们将在{dclWorldLink}中重定向到您的LAND{br} 名称仅在以太坊中提供，并且只能使用以太坊 MANA {symbol} 进行认领",
+    "world": "Decentraland!",
+    "name_label": "名称",
+    "name_message": "名称不得超过15个字符，不得包含空格或任何非字母数字字符。",
+    "name_placeholder": "你的名字在这里",
+    "repeated_message": "此名称不可用。",
+    "error_message": "网络出现错误，请重试",
+    "radio_label": "MANA批准",
+    "claim_button": "要求 ",
+    "feed_mana_message": "授权{contract_link}合同代表您操作MANA",
+    "mana_not_allowed": "您需要授权足够的MANA才能申请新名称",
+    "not_enough_mana": "您没有足够的MANA来申请新名称"
+  },
+  "create_single_item_modal": {
+    "title": "新物品",
+    "add_representation": "添加{bodyShape}",
+    "name_label": "给您的新商品起个名字",
+    "category_label": "这个项目是什么类别？",
+    "category_placeholder": "选择一个类别",
+    "rarity_label": "这件商品有多稀有？",
+    "rarity_placeholder": "选择稀有",
+    "representation_label": "选择您的项目的身体形状",
+    "existing_item": "这是现有项目的一部分吗？",
+    "pick_item": "选择没有{bodyShape}的商品",
+    "adding_representation": "这将添加为以下项目的{body Shape}",
+    "change_item_file": "编辑制图表达",
+    "error": {
+      "item_too_big": "整个项目太大，无法上传。 所有文件（包括缩略图）的最大大小为 {size}。",
+      "file_too_big": "该文件太大，无法上传。 最大尺寸为 {size}。",
+      "wrong_extension": "该文件的扩展名无效。",
+      "invalid_files": "文件似乎无效或损坏，请检查并重试。",
+      "missing_model_file": "找不到有效的模型文件。",
+      "invalid_content_path": "属性 \"{name}\" 的无效路径 \"{path}\"，找不到文件。",
+      "invalid_enum_value": "属性 \"{name}\" 的无效值 \"{value}\"，可能的值：{values}。"
+    }
+  },
+  "create_and_edit_multiple_items_modal": {
+    "create": {
+      "title": "创建多个可穿戴设备",
+      "successful_title": "创建的可穿戴物品",
+      "cancelled_title": "取消了多个可穿戴项目的创建",
+      "failed_title": "多个可穿戴项目创建失败",
+      "finished_successfully_subtitle": "伟大的！ 您已添加 {number_of_items} 项",
+      "finished_partial_successfully_subtitle": "您已添加 {number_of_items} 个项目，但 {number_of_failed_items} 个失败",
+      "saved_items_table_title": "保存的项目"
+    },
+    "edit": {
+      "title": "批量编辑项目",
+      "subtitle": "要编辑现有项目，请使用相同的 URN",
+      "successful_title": "更新的项目",
+      "failed_title": "多个项目更新失败",
+      "cancelled_title": "取消了多项更新",
+      "finished_successfully_subtitle": "伟大的！您已更新 {number_of_items} 项",
+      "finished_partial_successfully_subtitle": "您已更新 {number_of_items} 个项目，但 {number_of_failed_items} 个失败。请查看提供的 URN",
+      "saved_items_table_title": "更新项目"
+    },
+    "wrong_file_extension": "文件扩展名不正确。",
+    "asset_file_not_found": "找不到asset.json 文件。",
+    "thumbnail_file_not_found": "批量文件必须在其内容中包含 thumbnail.png 文件。",
+    "not_saved_items_table_title": "Invalid items",
+    "cancelled_items_table_title": "Cancelled items",
+    "invalid_urn": "asset.json 文件包含此集合的无效 URN",
+    "invalid_title": "无效的",
+    "valid_title": "有效的档案",
+    "add_more_button": "添加更多",
+    "upload_items_button": "上传可穿戴物品",
+    "only_valid_items_info": "只会上传有效的项目",
+    "done_button": "完成",
+
+    "importing_files_progress_label": "加工项目",
+    "uploading_items_progress_label": "上传 {number_of_items} 个项目",
+    "import_information_link_label": "点击这里",
+    "import_information": "有关 ZIP 结构的更多信息 {link}"
+  },
+  "create_items_modal": {
+    "title": "New Item",
+    "subtitle": "Select the method for uploading your item.",
+    "single_item_button_name": "Single item",
+    "single_item_button_description": "Upload GLTF, GLB or PNG files.",
+    "multiple_items_button_name": "Multiple items",
+    "multiple_items_button_description": "Upload a ZIP file with all the files."
+  },
+  "edit_collection_name_modal": {
+    "title": "编辑集合名称",
+    "subtitle": "为此收藏集设置一个新名称",
+    "submit": "救"
+  },
+  "edit_urn_modal": {
+    "title": "编辑 URN",
+    "subtitle": "更新 {name} 的 URN"
+  },
+  "custom_layout_modal": {
+    "subtitle_one": "您可以自定义场景布局.",
+    "subtitle_two": "在下面的输入框中输入所需的大小值."
+  },
+  "share_modal": {
+    "title": "分享您的场景",
+    "description": "让你的朋友和合作者欣赏您的作品",
+    "copy": "复制链接",
+    "copied": "已复制",
+    "uri": {
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u={url}&description=我的最新作品已经在 Decentraland 中安家了！ 敬请查看，并且添加自己的场景共建虚拟世界。",
+      "twitter": "https://twitter.com/intent/tweet?text=刚刚通过 Builder 在 Decentraland 中部署了我的新设计。 敬请查看，也请您创建您自己的场景。 因为虚拟世界也不会凭空而建! {url}&hashtags=builder,virtualworld,gaming"
+    }
+  },
+  "deployment_status": {
+    "online": "发布到{coords}",
+    "online_multiple": "在{count}个位置发布",
+    "needs_sync": "在{coords}发布，但已过时",
+    "needs_sync_multiple": "{count}个场景需要更新"
+  },
+  "deployment_modal": {
+    "clear": {
+      "confirmation": {
+        "action": "撤回发布",
+        "description": "从虚拟世界撤回 \"{project}\"",
+        "title": "撤回已发布的场景"
+      },
+      "connect": {
+        "description": "请连接到您的钱包以撤回已发布的场景。",
+        "title": "连接您的钱包"
+      },
+      "success": {
+        "continue": "已完成",
+        "description": "已清空土地,与在可以发布其他场景!",
+        "title": "已清空土地!"
+      }
+    },
+    "description": "将场景部署到土地上，或向土地所有者申请许可。",
+    "land": {
+      "confirmation": {
+        "action": "发布",
+        "description": "您将发布以下场景到土地:",
+        "location_label": "发布到",
+        "size_label": "大小",
+        "title_label": "标题"
+      },
+      "connect": {
+        "description": "连接您的钱包继续。",
+        "title": "发布场景"
+      },
+      "map": {
+        "continue": "继续",
+        "no_land_action": "提交到场景池",
+        "no_land_warning": "好象您没有任何土地",
+        "occupied_tooltip": "清空土地空间{br}从仪表板撤回发布的场景",
+        "occupied_warning": "在这个位置至少有一个场景布署",
+        "placement_active": "在 {x},{y} 布署 {count} 块土地场景 ",
+        "placement_default": "选择要发布场景的土地",
+        "reset": "重置",
+        "title": "发布场景"
+      },
+      "progress": {
+        "creating_files": {
+          "description": "正在建立上传的文件，请稍等。",
+          "title": "创建资源文件"
+        },
+        "recording": {
+          "description": "请稍等，正在录制场景预览。",
+          "title": "录制场景预览"
+        },
+        "uploading_assets": {
+          "description": "正在上传场景，请稍等。",
+          "title": "上传到虚拟世界"
+        },
+        "uploading_recording": {
+          "description": "正上传场景预览，请稍候。",
+          "title": "正在上传预览"
+        }
+      },
+      "success": {
+        "jump_in": "进入",
+        "continue": "继续工作",
+        "description": "场景已上传。",
+        "title": "已完成!"
+      },
+      "title": "发布场景"
+    },
+    "option_land": {
+      "action": "布署到 LAND 土地",
+      "description": "布署场景到 LAND 土地或 Estate 连块土地.",
+      "title": "我的 LAND 土地"
+    },
+    "option_pool": {
+      "action": "应用",
+      "description": "将你的场景应用到其他人的领地。",
+      "title": "场景池"
+    },
+    "pool": {
+      "action": "提交",
+      "contact_information": "联系信息",
+      "i_accept_the": "点击 \"提交\" 同意接受来自 Decentraland 的新闻",
+      "progress": "正在处理",
+      "sign_in": {
+        "action": "登录",
+        "subtitle": "登录以发布到场景池",
+        "title": "登录"
+      },
+      "subtitle": "把作品提交到场景池，就有机会发布。",
+      "success": {
+        "body": "如果您的场景被选中发布，您将收到电子邮件通知。",
+        "title": "谢谢上传你的场景!"
+      },
+      "title": "正在发布场景",
+      "uploading": "上传中..."
+    },
+    "title": "正在发布场景"
+  },
+  "use_as_alias_modal": {
+    "title": "为头像分配名称",
+    "subtitle": "为您的头像分配新的别名",
+    "body": "使用{newName}作为头像的新别名。 唯一名称是帮助您的朋友在Metaverse中找到您的好方法！ 这将替换{oldName}。",
+    "success": "{name}是您在Metaverse中的新别名！ 环游世界时，让其他人看到您的新名字。"
+  },
+  "deployment_contest_modal": {
+    "action": "参加比赛",
+    "submit": {
+      "title": "创建大赛",
+      "subtitle": "将场景发送到创建大赛。",
+      "eth_address": "ETH地址 (可选)",
+      "invalid_eth_address": "无效的ETH地址"
+    },
+    "recording": {
+      "title": "准备场景",
+      "subtitle": "我们正在准备您参赛的场景，请稍侯。"
+    },
+    "uploading": {
+      "title": "准备场景",
+      "subtitle": "我们正在准备您参赛的场景，请稍侯。"
+    },
+    "success": {
+      "title": "感谢您上传场景！",
+      "subtitle": "若您的场景入选了，您将接获电邮通知。"
+    }
+  },
+  "dissolve_modal": {
+    "title": "解散产业",
+    "confirm": "您即将解散{name}。您要继续吗？",
+    "too_big": "这个产业太大，无法在一项交易中解决。请移除包裹，直到其大小最大为{max}个包裹为止。"
+  },
+  "edit_project_modal": {
+    "custom_layout_label": "布局",
+    "title": "场景详细信息",
+    "unpublish_needed": "请在更新您的场景细节之前先取消发布您的场景"
+  },
+  "edit_page": {
+    "title": "编辑",
+    "subtitle": "您正在编辑{name}。"
+  },
+  "error_page": {
+    "or": "或者重试",
+    "reload": "重新加载页面",
+    "subtitle": "发生了一个错误，以下是错误信息:",
+    "support": "联系支持服务",
+    "title": "糟糕！"
+  },
+  "ens_list_page": {
+    "table": {
+      "name": "名称",
+      "link": "链接",
+      "assigned_to": "分配给"
+    },
+    "assigned_to_land": "土地 ({landId})",
+    "assigned_to_estate": "州 ({landId})",
+    "button": {
+      "assign": "分配",
+      "edit": "修",
+      "use_as_alias": "用作别名"
+    },
+    "empty_names": "看来您没有任何名称。{br} {link}开始使用。",
+    "items": "{count}结果",
+    "alias_popup": "您的个人资料正在使用此名称，但仍可以分配"
+  },
+  "estate_editor": {
+    "title_edit": "编辑产业",
+    "subtitle_edit": "单击以添加或删除包裹",
+    "title_create": "建造产业",
+    "subtitle_create": "单击相邻的地块以建造你的产业",
+    "subtitle_form": "为您的产业写上名称和描述",
+    "name_label": "名称",
+    "name_placeholder": "我的产业...",
+    "description_label": "描述",
+    "description_placeholder": "一些描述...",
+    "add_limit_reached": "您一次最多可以添加{max}个地块",
+    "remove_limit_reached": "您一次最多可以删除{max}个地块",
+    "needs_two_txs": "此更改将发送2笔交易：一笔交易添加{toAdd}地块，另一笔交易删除{toRemove}地块"
+  },
+  "export_modal": {
+    "action": "下载",
+    "description": "导出场景，用于 {sdk_link} 或导入到编辑器的其他实例中。这是一个分享场景和与朋友合作的好方法！使用 SDK 对场景所做的任何更改都不会影响到编辑器中的场景。",
+    "loading": "下载...",
+    "title": "下载场景"
+  },
+  "global": {
+    "avatar": "头像",
+    "activity": "活动",
+    "approved_tx": "批准的TX",
+    "back": "返回",
+    "blog_post": "博客",
+    "cancel": "取消",
+    "confirm": "确认",
+    "add": "添加",
+    "buy": "买",
+    "continue": "继续",
+    "create": "创建",
+    "dismiss": "解散",
+    "done": "完成",
+    "email": "email",
+    "error_ocurred": "出错了",
+    "eth_address": "ETH 地址",
+    "finish": "完",
+    "free": "自由",
+    "here": "这里",
+    "item": "物品",
+    "learn_more": "更多",
+    "loading": "装载",
+    "mint": "铸币",
+    "new": "新",
+    "new_scene": "新场景",
+    "delete": "删除",
+    "edit": "辑",
+    "next": "下一个",
+    "optional": "可选",
+    "or": "或",
+    "project": "场景",
+    "read_more": "阅读更多",
+    "retry_tx": "重试",
+    "save": "保存",
+    "send": "发送",
+    "share": "分享",
+    "sign_in_required": "您需要{link}才能访问此页面。",
+    "sign_in": "登录",
+    "sign_up": "注册",
+    "submit": "提交",
+    "subscribe": "订阅",
+    "terms_and_conditions": "使用条款",
+    "view_more": "查看更多",
+    "click_here": "点击这里",
+    "proceed": "继续",
+    "open_in_editor": "在编辑器中打开",
+    "address": "地址",
+    "balance": "余额",
+    "balances": "天平",
+    "revoke": "撤消",
+    "set": "定",
+    "settings": "设定",
+    "yes": "是",
+    "no": "没有",
+    "name": "名称",
+    "category": "类别",
+    "rarity": "稀有度",
+    "body_shape": "身材",
+    "body_shape_plural": "机构",
+    "size": "大小",
+    "hash": "散 列",
+    "publish": "发布",
+    "published": "已发表",
+    "description": "描述",
+    "urn": "URN",
+    "order": {
+      "newest": "最新",
+      "name_asc": "名称↑",
+      "name_desc": "名称↓"
+    },
+    "total": "全部的",
+    "parcel_plural": "包裹",
+    "estate_plural": "庄园",
+    "none": "没有任何",
+    "emote": "表情"
+  },
+  "navigation": {
+    "scenes": "场景",
+    "land": "土地",
+    "collections": "馆藏",
+    "names": "名字",
+    "curation": "策展"
+  },
+  "list": {
+    "two": "{first} 及 {second}",
+    "three": "{first}, {second} 及 {third}",
+    "more": "{count} 更多"
+  },
+  "home_page": {
+    "import_scene": "上传场景",
+    "no_projects": "看来您没有任何场景。{br} {link}开始使用。",
+    "no_projects_guest": "您的场景已上传到云端{br}{sign_in}查看它们.",
+    "project_actions": {
+      "delete_project": "删除场景",
+      "duplicate_project": "复制场景",
+      "export_project": "场景导出",
+      "unpublish": "撤消发布"
+    },
+    "sort": {
+      "name": "名称",
+      "newest": "最新",
+      "size": "尺寸"
+    },
+    "start": "开始设计",
+    "subtitle": "易于使用的工具和数以百计的 3D 素材，使得场景设计充满乐趣。快来释放您的创造力吧。",
+    "templates_title": "请先选择场景大小",
+    "title": "设计酷炫场景！",
+    "results": "{count}结果",
+    "from_scene_pool": "自场景池"
+  },
+  "import_modal": {
+    "action": "导入",
+    "action_many": "导入 {count} 个场景",
+    "cta": "拖拽场景文件到此，或者 {action}",
+    "description": "您可以导入使用 Builder 设计的任何场景！",
+    "invalid_file": "无效文件",
+    "title": "导入场景",
+    "upload_manually": "浏览您的电脑"
+  },
+  "itemdrawer": {
+    "opensea_credit": "由{link}提供支持",
+    "edit_asset_pack": "编辑",
+    "empty_ground": "末设置地面",
+    "no_results": "没找到",
+    "results": "结果",
+    "search": "搜索",
+    "title": "物品目录",
+    "search_items": "搜索"
+  },
+  "item_dropdown": {
+    "placeholder": "选择一个项目",
+    "no_items": "找不到有效的项目"
+  },
+  "collection_dropdown": {
+    "placeholder": "选择一个集合",
+    "no_collections": "未找到有效集合"
+  },
+  "layout_picker": {
+    "columns": "列",
+    "rows": "行"
+  },
+  "metrics": {
+    "bodies": "物体",
+    "entities": "实体",
+    "height": "高度",
+    "materials": "材质",
+    "meshes": "网格",
+    "textures": "纹理",
+    "too_many": "{metric} 过多",
+    "triangles": "三角形"
+  },
+  "mobile_page": {
+    "desktop_too_narrow": "生成器不适用于此分辨率！ 如果可以，请尝试扩大此窗口。",
+    "gallery_title": "查看内容编辑用户的作品!",
+    "learn_more": "了解有关Builder的更多信息",
+    "message": "内容编辑器目前只支持桌面版，注册以接收更新并在电脑上查看。",
+    "reminder_body": "您好！\n看来您试图在移动设备上使用内容编辑器\n目前内容编辑器只能运行在台式机和笔记本电脑上。拿起你最近的笔记本电脑或台式电脑，使用 https://builder.unicial.org\n\n快乐的建筑！再试 !\n\n祝开发快乐！\n\nThe Decentraland Team",
+    "reminder_subject": "提醒：试试Decentraland的Builder",
+    "secondary_hero": {
+      "action": "发送提醒",
+      "title": "当回到电脑前就创作场景?"
+    },
+    "success": "谢谢，我们会与您联系!"
+  },
+  "land_page": {
+    "name": "名称",
+    "coords": "座标",
+    "owner": "持有者",
+    "operator": "操作者",
+    "operators": "操作者",
+    "type": "类型",
+    "online_scenes": "在线场景",
+    "none": "无",
+    "results": "{count}个结果",
+    "owner_permission": "这些是您不拥有的土地，但所有者授予您使用它们的许可。"
+  },
+  "land_detail_page": {
+    "transfer": "转移",
+    "edit": "编辑",
+    "set_operator": "设定操作者",
+    "assign_name": "分配名称",
+    "build_estate": "建立产业",
+    "add_or_remove_parcels": "添加或删除地块",
+    "dissolve_estate": "解散产业",
+    "online_scenes": "在线场景",
+    "none": "无",
+    "add_scene": "添加场景",
+    "assigned_names": "分配名称",
+    "description": "描述",
+    "owner": "持有者",
+    "operators": "操作者",
+    "total_land": "总土地",
+    "empty_land": "空地",
+    "unset_ens_content": {
+      "title": "是否确定？",
+      "text": "取消分配链接将导致 {link} 不再带您到 {land} 。你想继续吗？"
+    }
+  },
+  "land_assign_ens_page": {
+    "title": "分配{name}",
+    "subtitle": "给...分配一个名字 {land}",
+    "set_name_message": "在将此名称分配给包裹之前，您需要提交2笔交易：第一笔交易允许您使用您的姓名作为链接，第二笔交易将您的姓名链接到LAND。",
+    "set_resolver": "设置解析器",
+    "set_resolver_explanation": "这样可以将您的名字链接到包裹",
+    "set_content": "设定内容",
+    "set_content_explanation": "这会通过链接到Decentraland's World中的LAND的方式解析您的姓名"
+  },
+  "ens_select_land_page": {
+    "title": "分配{name}",
+    "subtitle": "您可以将此名称分配给您的任何包裹或地产。",
+    "land_selected": "选拔：",
+    "already_assigned": "已分配"
+  },
+  "land_select_ens_page": {
+    "title": "分配名称",
+    "subtitle": "给...分配一个名字 {land}",
+    "empty_options_message": "您没有可用的名称。 要为您的LAND分配名称，您首先需要声明它。",
+    "claim_new_name": "申请新名字",
+    "select_name_title": "我的名字是",
+    "select_name_placeholder": "选择一个名字",
+    "click_to_claim_new_name": "{click_here}申请新名称",
+    "name_assigned": "这个名字已经分配给这片土地"
+  },
+  "ipfs_api": {
+    "not_redirected": "如果您未重定向"
+  },
+  "claim_name_fat_finger_modal": {
+    "title": "请确认您的新名字",
+    "description": "您已选择{name}。重新输入您的姓名以确认您的选择。",
+    "ok_message": "恭喜{name}是您的名字。",
+    "name_placeholder": "您的唯一名字",
+    "names_different": "名称不符"
+  },
+  "migrate_page": {
+    "step_one_title": "迁移您的帐户",
+    "step_one_message_line_one": "为了在我们的产品中提供隐秘的体验，我们已将Builder的帐户系统从电子邮件切换为基于钱包的帐户。这意味着您将需要连接一个以太坊钱包，以将场景存储在云中。如果您没有钱包，可以了解更多有关如何获得钱包的信息{link}。",
+    "step_one_link": "这里",
+    "step_one_message_line_two": "如果您的场景已存储在电子邮件帐户中，则可以使用此页面将它们迁移到您的钱包帐户。",
+    "step_one_cta": "开始迁移",
+    "step_two_title": "使用您的电子邮件登录",
+    "step_two_message": "请使用您的电子邮件帐户登录以查找需要迁移的场景。",
+    "step_two_cta": "登录",
+    "step_three_title": "连接你的钱包",
+    "step_three_message": "请连接您的钱包以继续。如果您没有钱包，请点击{link}。",
+    "step_three_link": "初学者指南",
+    "step_three_cta": "连接",
+    "step_three_error": "请安装{metamask}或其它以太坊钱包以继续",
+    "step_four_title": "迁移场景",
+    "step_four_message": "将电子邮件帐户下的所有场景和资产包迁移到您的钱包帐户中。",
+    "step_four_cta": "迁移",
+    "projects_title": "以下场景将被迁移："
+  },
+  "operator_page": {
+    "title": "设定操作者",
+    "subtitle": "您正在为{name}设置一个操作者。",
+    "address": "地址",
+    "undo": "复原",
+    "revoke": "撤消",
+    "invalid_address": "无效地址"
+  },
+  "scene_list_page": {
+    "projects_title": "社区场景",
+    "no_projects": "没有结果",
+    "filters": {
+      "creator-contest-2019-12": "Creator Contest (Submission)",
+      "qualified-creator-contest-2019-12": "Creator Contest",
+      "all_groups": "所有收藏",
+      "all_users": "全部用户",
+      "only_me": "只有我",
+      "newest": "最新",
+      "likes": "最喜欢",
+      "size": "尺寸",
+      "items": "项目",
+      "smart_items": "互动项目",
+      "name": "名称"
+    }
+  },
+  "public_page": {
+    "made_with": "Scene made with Builder",
+    "made_by": "Scene by",
+    "try_it_out": "try it out",
+    "parcel_count": "{parcels} {parcels, plural, one {parcel} other {parcels}}",
+    "item_count": "{items} {items, plural, one {item} other {items}}",
+    "likes": "{likes} {likes, plural, one {like} other {likes}}"
+  },
+  "not_found_page": {
+    "back": "返回场景",
+    "subtitle": "不好意思，没有找到你要的场景",
+    "title": "404"
+  },
+  "popups": {
+    "metrics_help": "查看场景指标",
+    "shortcuts_help": "在此查看快捷键"
+  },
+  "project_card": {
+    "items": "模型",
+    "confirm_delete_content": "您确认删除场景 \"{title}\"? 此操作不能回退！",
+    "confirm_delete_header": "删除 \"{title}\""
+  },
+  "item_card": {
+    "move_to_collection": "移至收藏",
+    "confirm_delete_content": "您确定要删除项目\"{name}\"吗？ 此操作不可逆转！",
+    "confirm_delete_header": "删除 \"{name}\""
+  },
+  "project_fields": {
+    "description_field_label": "描述或说胆",
+    "description_field_placeholder": "没有说明",
+    "title_field_label": "名称",
+    "title_field_placeholder": "场景名称"
+  },
+  "project_layout_picker": {
+    "max_area_error": "您的场景不得超过 {area} 块地块",
+    "min_area_error": "您的场景太小了"
+  },
+  "quota_exceeded_modal": {
+    "retry": {
+      "description": "无法保存",
+      "title": "糟糕！"
+    },
+    "sign_in": {
+      "description": "您已达到浏览器存储空间的限制，请登录以继续",
+      "title": "糟糕！"
+    }
+  },
+  "scene_detail_page": {
+    "actions": {
+      "duplicate": "重复",
+      "download": "下载",
+      "delete": "删除",
+      "unpublish": "取消发布"
+    },
+    "published_in": "出版于",
+    "no_deployments": "此场景尚未在Metaverse中发布。",
+    "online": "线上",
+    "unsynced": "未同步",
+    "status": "状态",
+    "location": "位置",
+    "description": "描述"
+  },
+  "shortcuts": {
+    "delete": "删除",
+    "duplicate": "复制",
+    "export": "场景导出",
+    "hold": "按住",
+    "move": "坐标轴",
+    "move_camera": "移动摄相机",
+    "precision": "精确度",
+    "preview": "预览",
+    "redo": "重做",
+    "reset": "重置",
+    "reset_camera": "重置摄相机",
+    "rotate": "旋转轴",
+    "scale": "切换缩放",
+    "shortcut_reference": "快捷方式",
+    "toggle_colliders": "碰撞器",
+    "toggle_sidebar": "侧边栏",
+    "undo": "撤消",
+    "zoom_in": "放大",
+    "zoom_out": "缩小",
+    "multiselect": "选择多个项目"
+  },
+  "shortcuts_modal": {
+    "editor_shortcuts": "编辑器",
+    "item_shortcuts": "物品",
+    "other_shortcuts": "其它",
+    "title": "快捷键"
+  },
+  "sync": {
+    "error": "{errorCount} {errorCount, plural, one {场景} other {场景}} 无法上传",
+    "loading": "上传中...",
+    "retry": "重试",
+    "success": "所有场景成功保存！"
+  },
+  "create_modal": {
+    "title": "创建一个场景",
+    "name_subtitle": "为您的场景设置名称和描述",
+    "size_subtitle": "设置新场景的大小",
+    "name_label": "名称",
+    "description_label": "描述",
+    "description_placeholder": "一些描述..."
+  },
+  "templates": {
+    "big": "大 (2x3)",
+    "custom_layout": {
+      "title": "自定义",
+      "up_to": "最大 {max} 块地块"
+    },
+    "description": "{dimensions} - 最多 {amount} 个模型",
+    "medium": "中 (2x2)",
+    "small": "小 (1x1)"
+  },
+  "activity_page": {
+    "latest_activity": "最新活动",
+    "clear_history": "清除历史记录",
+    "empty": "您尚无活动。",
+    "clear_history_modal": {
+      "title": "您确定吗？",
+      "text": "您将清除交易记录。您要继续吗？"
+    }
+  },
+  "settings_page": {
+    "authorizations": "权限",
+    "disclaimer": "您可以分配其他地址来代表您经营所有包裹或地产。他们{emphasis}能够转让或出售它们，只允许他们在其上发布内容。",
+    "emphasis": "将不会",
+    "authorization": "您授权{address}代表您操作所有{type}。",
+    "authorization_action": "授权{address}代表您操作所有{type}。",
+    "copy_address": "复制地址",
+    "copied": "已复制",
+    "authorizations_title": "活动授权"
+  },
+  "transaction": {
+    "approved": "已批准",
+    "not_approved": "未批准",
+    "approve_token": "您{action} {contract}合同代表您操作{token}。",
+    "change_profile": "您的名字用作{address}的別名",
+    "transfer": "您已将{name}转移到{address}。",
+    "edit": "您已编辑{name}.",
+    "set_operator_assigned": "您已将{address}分配为{name}的操作者。",
+    "set_operator_revoked": "您撤销了{name}的操作者。",
+    "create_estate": "您创建了{name}。",
+    "dissolve_estate": "您解散了{name}。",
+    "edit_estate_add": "您在{name}中添加了{count}土地。",
+    "edit_estate_remove": "您从{name}中删除了{count}土地。",
+    "set_manager_assigned": "您已将{地址}分配、为所有{type}的运算符。",
+    "set_manager_revoked": "您已撤销{address}为所有{type}的操作员。",
+    "collection_published": "发布了收藏集{name}",
+    "collection_approved": "批准了集合{name}",
+    "collection_rejected": "拒绝收藏{name}",
+    "set_price_and_beneficiary": "您编辑了{name}的价格和/或受益人",
+    "collection_item_minted": "为集合 {collectionName} 铸造了 {itemName} {count, plural, one {一次} other {{count} 次}}",
+    "collection_items_minted": "为{name}收集了{count}个项目",
+    "updated_collection_managers": "更新了集合 {name} 管理器",
+    "updated_collection_minters": "更新了集合 {name} 铸币厂",
+    "set_collection_on_sale": "设置要出售的收藏集{name}",
+    "unset_collection_on_sale": "已将集合{name}从出售中移除",
+    "set_ens_resolver": "为名称\"{name}\"设置解析器",
+    "set_ens_content": "在{land_link}上为名称\"{name}\"设置重定向内容。",
+    "unset_ens_content": "删除名称\" {name} \"的重定向内容",
+    "allowed_claim_mana": "允许MANA声明新名称",
+    "disallowed_claim_mana": "不允许MANA申请新名称",
+    "claim_name": "声明新名称：\"{name}\"。",
+    "rescue_items": "您已批准 {count} 项目 的内容，用于 {collectionName} 集合"
+  },
+  "transfer_page": {
+    "title": "转移",
+    "subtitle": "您即将转移{name}。",
+    "disclaimer": "请记住，转移是不可逆的操作。{br}请仔细检查地址。"
+  },
+  "toasts": {
+    "localstorage": "场景存储在本地浏览器中。 {sign_in}以将其保存在云端！"
+  },
+  "topbar": {
+    "bounds_exceeded": "物体超过边界{br}请将物品移动到边界内！",
+    "limits_exceeded": "{metric} 太多{br}请尝试删除一些物品！",
+    "publish": "发布",
+    "up_to_date": "已最新！{br}所有更改都已发布",
+    "update_scene": "更新场景"
+  },
+  "tutorial_modal": {
+    "slide0": {
+      "description": "这是 Decentraland 的新场景构建器。",
+      "title": "欢迎您的到来！"
+    },
+    "slide1": {
+      "description": "要移动对象，请单击并拖动对象。",
+      "title": "移动物体"
+    },
+    "slide2": {
+      "description": "从右侧边栏向场景添加对象。",
+      "title": "添加对象"
+    },
+    "slide3": {
+      "description": "通过单击\"旋转\"工具并拖动轨道来旋转对象。",
+      "title": "轨道和箭头"
+    },
+    "slide4": {
+      "description": "使用左键拖动可旋转相机。",
+      "title": "相机控制"
+    },
+    "subtitle": "内容编辑器非常容易使用，在您开始之前，这里有一些技巧和提示",
+    "title": "开始使用 the Builder"
+  },
+  "unsupported_browser_page": {
+    "back": "返回您的场景",
+    "subtitle": "The Builder 不支持您的浏览器.{br}请使用 {chrome} 或 {firefox}",
+    "title": "Oops!"
+  },
+  "user_menu": {
+    "guest": "客人",
+    "sign_in": "登录",
+    "sign_out": "注销"
+  },
+  "validation": {
+    "project": {
+      "description": {
+        "length": "描述长度必须是 {min} 到 {max} 个字符."
+      },
+      "title": {
+        "length": "名称长度必须是 {min} 到 {max} 个字符."
+      }
+    }
+  },
+  "video_modal": {
+    "title": "更多",
+    "youtube_id": "NhaP_M7tVc8"
+  },
+  "wallet": {
+    "title": "连接您的钱包以登入。",
+    "sign_in_required": "您需要{sign_in}才能访问此页面。",
+    "sign_in": "登入"
+  },
+  "collections_page": {
+    "results": "{count} {count，复数，一个{result}其他{results}}",
+    "no_items": "有项目",
+    "new_item": "项目",
+    "new_collection": "收藏",
+    "new_third_party_collection": "新的链接可穿戴设备系列",
+    "type": "类型",
+    "items": "模型",
+    "collections": "收藏品",
+    "single_items": "单品",
+    "empty_description": "您还没有商品或收藏。 创建一个新项目或收藏集，并为metaverse装扮时尚！"
+  },
+  "curation_page": {
+    "order": {
+      "most_relevant": "最相关的"
+    },
+    "filter": {
+      "all_status": "所有状态",
+      "all_assignees": "所有受让人",
+      "not_reviewed": "尚未审核",
+      "approved": "已批准",
+      "rejected": "拒绝了",
+      "under_review": "审查中",
+      "to_review": "回顾"
+    },
+    "search_placeholder": "按名称或所有者地址在 {count} 个结果之间搜索...",
+    "collections": "{count} {count, plural, one {个合集} other {个收藏}}",
+    "empty_collections": "尚无要审查的收藏集。",
+    "assign_modal": {
+      "unassign": "取消分配",
+      "collection_unassigned": "{collection_name} 集合已取消分配。",
+      "self_assign": {
+        "title": "确认您对 {collection_name} 的分配",
+        "body": "您将负责 {emphasis}。如果需要，您可以将收藏重新分配给其他策展人。",
+        "emphasis": "审阅此收藏并在论坛中与创作者交流",
+        "success": "{collection_name} 集合已分配给您。"
+      },
+      "reassign": {
+        "title": "编辑 {collection_name} 收藏的指定策展人",
+        "body": "如果您无法查看此收藏，请将其重新分配给其他策展人。确保让他们知道此更改",
+        "success": "{collection_name} 集合已分配给 {assignee}。"
+      }
+    },
+    "error_message_title": "错误",
+    "error_message_body": "发生错误。请稍后再试。",
+    "assign_success_title": "已分配集合",
+    "unassign_success_title": "集合未分配",
+    "curator": "馆长",
+    "confirm_not_assigned_curation_modal": {
+      "title": "批准收集",
+      "body": "此集合已分配给 {assignee}。如果需要，您仍然可以批准它，但请确保让指定的策展人知道它。",
+      "confirm_footer": "确认此集合的批准，使其能够被铸造。",
+      "confirm_button": "分配给我并批准收藏"
+    }
+  },
+  "collection_row": {
+    "collection": "收藏",
+    "published": "发表",
+    "date": "日期",
+    "assignee": "受让人",
+    "status": "地位",
+    "discussion": "讨论",
+    "items": "{count} 项",
+    "owner": "所有者",
+    "link": "关联",
+    "type": "类型",
+    "type_third_party": "链接的",
+    "type_standard": "标准",
+    "review_request": "审查请求",
+    "forum_post": "论坛帖子",
+    "no_forum_post": "尚未发布到论坛",
+    "approved": "已批准",
+    "rejected": "拒绝了",
+    "disabled": "禁用",
+    "unassigned": "未分配",
+    "assign_to_me": "分配给我",
+    "you": "你"
+  },
+  "item_detail_page": {
+    "notice": "您需要先将项目添加到集合中，然后才能发布它们",
+    "add_representation": "添加{bodyShape}",
+    "change_item_file": "编辑制图表达"
+  },
+  "third_party_collection_detail_page": {
+    "notice": "每个发布的项目占用 1 个 Slot。在 DAO 中创建提案草案以申请更多插槽",
+    "search_placeholder": "搜索 {count} {count, plural, one {物品} other {项目}}...",
+    "search_info": "{page}-{pageTotal} 个，共 {total} 个",
+    "clear_selection": "清空选项",
+    "select_all": "选择所有 {total} 项",
+    "selection": "{count, plural, one {# 物品} other {# 项目}} 选中.",
+    "max_select_count": "您一次最多可以发布 {count} 个项目",
+    "slots": "{amount, plural, =0 {没有插槽} other {# 个插槽}}",
+    "start_adding_items": "看起来不错！ 现在您可以开始将项目添加到您的收藏中了。",
+    "cant_remove": "发布项目后，您将无法添加或删除项目。",
+    "publish_items": "发布 {count, plural, =0 {} other {# 项}}",
+    "new_items": "新的可穿戴物品",
+    "publish": "发布",
+    "push_changes": "推送更改",
+    "publish_and_push_changes": "发布和推送更改",
+    "cant_publish": "此集合仍在审核中，一旦该过程结束，您将能够发布更多项目",
+    "cant_publish_items": "您正在尝试发布 {count} {count，复数，一个 {item} 其他 {items}}。目前还有其他人正在审查中",
+    "exceeds_available_slots": "您超出了可用插槽的数量。在 DAO 中创建提案以添加更多插槽",
+    "cant_publish_and_push_changes": "您正在尝试发布 {count} {count，复数，一个 {item} 其他 {items}} 并同时推送更改。取消选择要发布的项目以推送更改"
+  },
+  "collection_detail_page": {
+    "new_item": "新物品",
+    "mint_items": "薄荷项目",
+    "on_sale": "特价中",
+    "set_on_sale_popup": "这将允许您的收藏在 Decentraland 市场上出售。",
+    "unset_on_sale_popup": "该系列在 Decentraland 市场上有售。",
+    "publish": "发布",
+    "notice": "凉爽的！ 现在，您可以开始处理项目了。 {editor_link}打开编辑器，或在任何项目上单击“编辑”按钮。",
+    "start_adding_items": "看起来不错！ 现在您可以开始将项目添加到您的收藏中了。",
+    "cant_remove": "集合发布后，您将无法将其删除或添加到集合中。",
+    "cant_mint": "该收藏集仍在审核中，一旦该过程结束，您将能够铸造商品",
+    "cant_push": "此集合仍在审查中，项目仍然可以铸造，但不会反映进一步的变化，直到批准。",
+    "push_changes": "上传更改",
+    "under_review": "审核中",
+    "cant_operate": "此合集仍处于锁定状态，一旦发布结束您将可以再次操作",
+    "locked": "锁定",
+    "publish_reason_max_items": "可以发布包含最多 {maxItems} 个项目的集合。",
+    "publish_reason_no_items": "您需要添加至少一项才能发布您的收藏。",
+    "publish_reason_items_not_complete": "所有项目必须完整才能发布您的收藏，检查是否设置了所有属性。"
+  },
+  "collection_context_menu": {
+    "add_existing_item": "添加现有项目",
+    "forum_post": "论坛帖子",
+    "copy_address": "复制地址",
+    "edit_urn": "编辑 URN",
+    "edit_in_bulk": "批量编辑",
+    "copy_urn": "复制 URN",
+    "see_in_world": "见世面",
+    "unpublished": "此合集尚未发布",
+    "managers": "合作者",
+    "minters": "铸币厂",
+    "post_to_forum": "发布到论坛",
+    "posting": "过帐",
+    "not_posted": "该收藏集尚未发布到论坛。 您可以在这里重试",
+    "delete_published_collection": "您无法删除已发布的集合",
+    "change_published_urn": "集合发布后，您将无法更改 URN"
+  },
+  "collection_item": {
+    "set_price": "设定价格",
+    "done": "完成",
+    "edit_item": "编辑",
+    "mint_item": "铸币",
+    "remove_from_collection": "从收藏中删除",
+    "edit_price": "修改价格",
+    "see_details": "查看详细信息",
+    "edit_urn": "编辑 URN",
+    "cannot_edit_urn": "项目发布后您无法编辑 URN",
+    "reset_item": "撤消"
+  },
+  "collection": {
+    "type": {
+      "unicial": "采集",
+      "third_party": "链接的可穿戴设备系列"
+    }
+  },
+  "item": {
+    "blockchain_id": "区块链ID",
+    "category": "类别",
+    "rarity": "稀有度",
+    "representation": "表示",
+    "price": "价钱",
+    "beneficiary": "受益人",
+    "supply": "供应",
+    "collection": "采集",
+    "edit_urn": "编辑 URN",
+    "copy_urn": "Copy URN",
+    "type": {
+      "wearable": "可穿戴",
+      "emote": "表情"
+    }
+  },
+  "edit_price_and_beneficiary_modal": {
+    "title": "设置{name}的价格和地址",
+    "for_me": "我是受益人",
+    "free": "免费",
+    "price_label": "价格",
+    "beneficiary_label": "受益人",
+    "beneficiary_popup": "这是第一次出售物品时将收到 MANA 和有人转售时收取版税的钱包地址。 您可以为集合中的每个项目设置不同的收款人地址。"
+  },
+  "confirm_delete": {
+    "content": "您确定要删除\"{name}\"吗?"
+  },
+  "publish_collection_modal": {
+    "title": "发布收藏",
+    "title_tos": "内容政策",
+    "first_paragraph": "您将要发布您的收藏集，请注意以下几点：",
+    "second_paragraph": "发布收藏集后，您将无法添加或删除项目",
+    "third_paragraph": "您将无法更改集合的名称。请确保拼写正确且不侵犯知识产权。",
+    "fourth_paragraph": "您收藏中的物品将出现在市场中，但只有获得批准，才能出售。",
+    "items_breakdown_title": "“您即将发布{count} {count, 复数，一个{item} 其他{items}}。您需要Polygon MANA 来支付交易费用，所有这些费用都交给Decentraland DAO。DAO 使用这个MANA 来支付 用于对您提交的内容进行技术审查，并通过赠款、活动和奖品支持社区的发展”",
+    "tos_title": "我在此声明并保证：",
+    "tos_first_condition": "1：提交穿戴式是完全符合{TERMS_OF_USE}和{} content_policy，我承认并接受。",
+    "tos_second_condition": "2：我对提交的穿戴式拥有足够的知识产权。",
+    "tos_third_condition": "3：我承认，DAO 可能会因违反内容政策和使用条款而拒绝创建穿戴式。 我也承认，如果被拒绝，将不会退还提案费。",
+    "invalid_email": "给定的电子邮件无效。",
+    "terms_of_use": "使用条款",
+    "content_policy": "内容政策",
+    "accept_by_publishing": "通过点击发表您接受我们的条件",
+    "publish": "发布",
+    "not_enough_mana": "您没有足够的{symbol} 来发布此收藏集。",
+    "get_mana": "您可以使用{link} dapp获得更多信息。",
+    "unsynced_collection": "您尝试发布的集合中的项与服务器上的项存在差异。请刷新浏览器，然后重试。"
+  },
+  "sell_collection_modal": {
+    "title": "您想出售您的物品吗？",
+    "turn_on_description": "通过打开此开关，您的收藏将可以在 Decentraland 市场上购买。",
+    "turn_on": "打开",
+    "turn_off_description": "关闭此开关后，您的收藏将不再可用。",
+    "turn_off": "关掉",
+    "unsynced_warning": "有些项目有尚未批准的更改。"
+  },
+  "collection_managers_modal": {},
+  "manage_collection_role_modal": {
+    "manager": {
+      "title": "合作者",
+      "subtitle": "如果您在制作此收藏集时与其他创作者合作，请输入他们的ETH地址",
+      "add_new": "添加协作者",
+      "empty": "还没有合作者，首先"
+    },
+    "minter": {
+      "title": "铸币厂",
+      "subtitle": "输入您要允许铸造您的物品的 ETH 地址",
+      "add_new": "添加铸币厂",
+      "empty": "还没有铸币机，开始吧"
+    },
+    "adding_one": "加一个！"
+  },
+  "push_collection_changes_modal": {
+    "title": "上传更改",
+    "description": "自上次策展人审查藏品或其中包含的文章以来，对收藏品或其中包含的文章进行了更改。{br}要使这些变化反映在市场和游戏中，必须再次得到委员会的审查和批准。{br}您确定要推动更改以供审核吗？"
+  },
+  "publish_third_party_collection_modal": {
+    "title": "发布链接项目",
+    "publish_description": "即将使用 {availableSlots} 个可用插槽中的 {slotsToUse，复数，一个 {# slot} 其他 {# slot}} 来发布 \"{collectionName}\"。",
+    "push_changes_description": "即将对 \"{collectionName}\" 推送对 {itemsWithChanges, 复数，一个 {# item} 其他 {# items}} 的更改。",
+    "publish_and_push_changes_description": "即将使用 {slotsToUse，复数，一个 {# slot} 其他 {# slot}} 来自 {availableSlots} 可用插槽来发布 \"{collectionName}\"，并且更改将被推送到 {itemsWithChanges，复数，一个 {# item}其他项目}}。"
+  },
+  "mint_items_modal": {
+    "title": "薄荷项目",
+    "add_item": "新增项目",
+    "limit_reached": "每笔交易只能铸造 {max} 件物品",
+    "no_items": "您没有可用于\"{name}\"的项目",
+    "unsynced_warning": "有些项目有尚未批准的更改。"
+  },
+  "reset_item_modal": {
+    "title": "撤消",
+    "content": "该项目目前与委员会以前批准的项目不同。{br}您现在看到的版本与市场上和游戏中可见的版本不对应。{br}您可以上传更改供委员会审查此新版本，也可以单击确认按钮将项目重置为原始状态。"
+  },
+  "collection_image": {
+    "no_items": "没有项目"
+  },
+  "collection_card": {
+    "item_count": "{count} {count, plural, one {物品} other {项目}}",
+    "subtitle": "{count} {count, plural, one {项目} other {项目}}",
+    "confirm_delete_content": "您确定要删除您的收藏集 \"{name}\" 吗？ 此操作不可逆！",
+    "confirm_delete_header": "删除收藏"
+  },
+  "item_editor": {
+    "open": "打开编辑器",
+    "top_panel": {
+      "approve": "批准",
+      "reject": "拒绝",
+      "enable": "使",
+      "disable": "禁用",
+      "rejection_modal": {
+        "veredict_explanation": "你能告诉我们为什么吗？",
+        "visit_activity": "您可以检查您的 {activity_link} 以监控交易",
+        "go_to_forum": "请转到相关论坛讨论，并让创建者知道您的决定。",
+        "forum_link": "论坛链接",
+        "discussion": "讨论",
+        "keep_reviewing": "继续审核",
+        "back_to_curation": "回到策展",
+        "waiting_for_upload": "收藏中的某些项目仍在上传到 Catalyst。 请尽快回来查看以继续策展。",
+        "reject_curation": {
+          "title": "拒绝更改",
+          "subtitle": "我想这些变化还不够好， 嗯？",
+          "action": "拒绝更改"
+        },
+        "disable_collection": {
+          "title": "禁用集合",
+          "subtitle": "此集合将不再可用。将来可以再次启用它。",
+          "tx_pending": "等待已禁用的交易得到确认。",
+          "action": "禁用"
+        }
+      }
+    },
+    "left_panel": {
+      "title": "我的物品",
+      "actions": {
+        "new_item": "新物品",
+        "new_collection": "新系列",
+        "add_existing_item": "添加现有项目",
+        "edit_name": "编辑名称"
+      },
+      "items": "物品",
+      "collections": "馆藏",
+      "items_count": "{count}个项目",
+      "invalid_representation_tooltip": "此项没有{bodyShape}表示形式",
+      "no_items_to_review": "没有待审核的项目",
+      "empty_collection": "空集合，先添加一些项目！"
+    },
+    "center_panel": {
+      "disabled_animation_dropdown": "需要至少可见一个项目才能选择头像动画"
+    },
+    "right_panel": {
+      "properties": "物产",
+      "details": "细节",
+      "basics": "基本",
+      "overrides": "覆写",
+      "replaces": "取代",
+      "replaces_info": "当用户装备您的物品时，您选择的类别中的其他任何物品都将被取消装备。 用户删除物品后必须重新装备它们。",
+      "hides": "皮",
+      "hides_info": "当用户装备您的物品时，您选择的类别中的所有其他物品将保持装备状态，但不会被渲染。 用户仅会在删除您的商品后看到他们的其他商品。 ",
+      "tags": "标签",
+      "select_placeholder": "选择一个选项",
+      "request_for_changes": "要求变更",
+      "request_for_changes_explanation": "如果您想更改{name}，请在论坛中请求委员会成员的授权"
+    }
+  },
+  "emote": {
+    "category": {
+      "simple": "简单的",
+      "loop": "环形"
+    }
+  },
+  "wearable": {
+    "supply": "{formatted}件商品",
+    "rarity": {
+      "unique": "独特",
+      "mythic": "神话",
+      "legendary": "传奇",
+      "epic": "史诗",
+      "rare": "稀有",
+      "uncommon": "罕见",
+      "common": "常见"
+    },
+    "color": {
+      "skin": "肤色",
+      "eye": "眼睛的颜色",
+      "hair": "发色"
+    },
+    "category": {
+      "body_shape": "身材",
+      "earring": "耳环",
+      "eyebrows": "眉毛",
+      "eyes": "眼睛",
+      "eyewear": "眼镜",
+      "facial_hair": "胡子",
+      "feet": "腿部",
+      "hair": "头发",
+      "hat": "帽子",
+      "head": "头",
+      "helmet": "头盔",
+      "lower_body": "下半身",
+      "mask": "面具",
+      "mouth": "嘴巴",
+      "tiara": "头饰",
+      "top_head": "头顶",
+      "upper_body": "上半身",
+      "skin": "皮肤"
+    }
+  },
+  "time": {
+    "hours": "{amount}小时",
+    "minutes": "{amount}分钟",
+    "seconds": "{amount}秒"
+  },
+  "analytics": {
+    "users": "每周用户",
+    "sessions": "每周会议",
+    "median_session_time": "会话时间中位数",
+    "max_concurrent_users": "高峰用户",
+    "notice": "*这些指标是每个星期一每周计算一次"
+  },
+  "maintainance": {
+    "notice": "我们目前正在维护中，我们会很快回来！"
+  },
+  "networks": {
+    "ethereum": "Ethereum",
+    "matic": "Polygon"
+  },
+  "intro_popup": {
+    "title": "介绍Polygon MANA",
+    "blog_link": "博客文章",
+    "account_link": "帐户dApp",
+    "manage_account": "管理帐户",
+    "content": "Polygon MANA将使您更快地进行购买。{br}您可以在我们的{blog_link}中了解有关Polygon MANA的更多信息。{br}您还可以在新的{ account_link}。{br}点击您的头像，选择{manage_account}，然后开始征服Metaverse。",
+    "dismiss": "知道了！"
+  },
+  "toast": {
+    "meta_transaction_failure": {
+      "title": "元交易",
+      "body": "发送元交易时出错。{br}请重试或加入我们的{discord_link}以获取支持。"
+    },
+    "deploy_item_failure": {
+      "title": "项目错误",
+      "body": "无法从 \"{collectionName}\" 上传项目 \"{itemName}\"。{br}商品尺寸过大，允许的最大尺寸为 {size}"
+    }
+  },
+  "sagas": {
+    "collection": {
+      "invalid_character": "无效字符！ 名称中不允许使用 \":\"",
+      "missing_salt": "集合没有盐",
+      "collection_locked": "收藏已锁定"
+    },
+    "item": {
+      "invalid_identity": "无效身份",
+      "invalid_character": "无效字符！ 名称或描述中不允许使用 \":\"",
+      "cant_save_published": "不应发布项目以保存它",
+      "not_published": "必须发布项目才能使用事务保存",
+      "cant_save_without_collection": "没有收藏就无法保存已发布",
+      "not_found": "未找到项目"
+    }
+  },
+  "status": {
+    "under_review": "审核中",
+    "loading": "加载中...",
+    "synced": "同步",
+    "unsynced": "未同步"
+  },
+  "editor_preview": {
+    "loading_unity_and_base_wearables": "正在加载 Unity 和基础可穿戴设备...",
+    "loading_base_wearables": "正在加载基础可穿戴设备...",
+    "loading_unity": "正在加载统一..."
+  },
+  "approval_flow": {
+    "loading": {
+      "title": "加载中...",
+      "subtitle": "准备收集以供批准"
+    },
+    "rescue": {
+      "title": "救援物品",
+      "subtitle": "请批准项目及其哈希值",
+      "confirm": "确认",
+      "items_exceed_limit": {
+        "title": "集合超过最大项目数",
+        "content": "将进行多笔交易。 请注意，您将被要求签署它们。"
+      }
+    },
+    "consume_slots": {
+      "title": "批准项目",
+      "subtitle": "请批准以下项目",
+      "more_items": "还有 {count} 个其他 {count，复数，一个 {item} 其他 {items}}",
+      "confirm": "确认"
+    },
+    "上传": {
+      "title": "上传文件",
+      "subtitle": "请上传项目内容",
+      "确认": "上传"
+    },
+    "批准": {
+      "title": "启用收藏",
+      "subtitle": "请启用要铸造的集合",
+      "确认": "启用"
+    },
+    "错误": {
+      "title": "错误",
+      "subtitle": "出了点问题......"
+    },
+    "成功": {
+      "title": "收藏已获批准！",
+      "subtitle": "感谢您查看此合集"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+import * as React from 'react'
+import { Row, Column, Section, Narrow, InputOnChangeData, Header, Form, Field, Button, Mana, Radio, Popup } from 'unicial-ui'
+import { Network } from '@dcl/schemas'
+import { T, t } from 'unicial-dapps/dist/modules/translation/utils'
+import { getTokenAmountToApprove } from 'unicial-dapps/dist/modules/authorization/utils'
+import { NetworkButton, NetworkCheck, TransactionLink } from 'unicial-dapps/dist/containers'
+import Back from 'components/Back'
+import LoggedInDetailPage from 'components/LoggedInDetailPage'
+import { locations } from 'routing/locations'
+import { MAX_NAME_SIZE, PRICE, isNameValid, isNameAvailable, hasNameMinLength, isEnoughClaimMana } from 'modules/ens/utils'
+import { CONTROLLER_ADDRESS } from 'modules/common/contracts'
+import { Props, State } from './ClaimENSPage.types'
+
+import './ClaimENSPage.css'
+
+export default class ClaimENSPage extends React.PureComponent<Props, State> {
+  state: State = {
+    name: '',
+    isLoading: false,
+    isAvailable: true,
+    isError: false
+  }
+
+  handleManaApprove = async () => {
+    const { allowance, onAllowMana } = this.props
+    const manaToAllow = isEnoughClaimMana(allowance) ? 0 : getTokenAmountToApprove()
+    onAllowMana(manaToAllow.toString())
+  }
+
+  handleClaim = async () => {
+    const { wallet, mana, allowance, onOpenModal } = this.props
+    const { name } = this.state
+
+    const isValid = isNameValid(name)
+    const isEnoughMana = wallet && isEnoughClaimMana(mana.toString())
+    const isManaAllowed = isEnoughClaimMana(allowance)
+
+    if (!isValid || !isEnoughMana || !isManaAllowed) return
+
+    this.setState({ isLoading: true })
+    try {
+      const isAvailable = await isNameAvailable(name)
+      if (isAvailable) {
+        onOpenModal('ClaimNameFatFingerModal', { originalName: name })
+        this.setState({ isLoading: false })
+      } else {
+        this.setState({ isAvailable: false, isLoading: false })
+      }
+    } catch (error) {
+      this.setState({ isLoading: false, isAvailable: true, isError: true })
+    }
+  }
+
+  handleNameChange = (_event: React.ChangeEvent<HTMLInputElement>, data: InputOnChangeData) => {
+    const { isAvailable } = this.state
+    if (data.value.length <= MAX_NAME_SIZE) {
+      if (!isAvailable) {
+        this.setState({ name: data.value, isAvailable: true, isError: false })
+      } else {
+        this.setState({ name: data.value, isError: false })
+      }
+    }
+  }
+
+  handleBack = () => {
+    this.props.onNavigate(locations.root())
+  }
+
+  handleAction = () => {
+    /* noop */
+  }
+
+  render() {
+    const { wallet, mana, allowance, onBack } = this.props
+    const { name, isError, isAvailable } = this.state
+
+    const isLoading = this.props.isLoading || this.state.isLoading
+
+    const isValid = isNameValid(name)
+    const isEnoughMana = wallet && isEnoughClaimMana(mana.toString())
+    const isManaAllowed = isEnoughClaimMana(allowance)
+
+    const isDisabled = !isValid || !isAvailable || !isEnoughMana || !isManaAllowed
+
+    let message: string = ''
+    if (isError) {
+      message = t('claim_ens_page.error_message')
+    } else if (!isAvailable) {
+      message = t('claim_ens_page.repeated_message')
+    } else if (name.length <= 2) {
+      message = ''
+    } else if (!isValid) {
+      message = t('claim_ens_page.name_message')
+    }
+
+    return (
+      <LoggedInDetailPage className="ClaimENSPage" hasNavigation={false}>
+        <Row height={48}>
+          <Back absolute onClick={this.handleBack} />
+        </Row>
+        <Narrow>
+          <Row className="main">
+            <Column className="avatar-container">
+              <div className="avatar-friends"></div>
+            </Column>
+            <Column className="content">
+              <Section>
+                <Header className="title" size="large">
+                  {t('claim_ens_page.title')}
+                </Header>
+                <span className="subtitle">
+                  <T
+                    id="claim_ens_page.subtitle"
+                    values={{
+                      exampleLink: <i>https://name.unicial.eth</i>,
+                      br: (
+                        <>
+                          <br />
+                          <br />
+                        </>
+                      ),
+                      dclWorldLink: (
+                        <a href="http://play.unicial.org" rel="noopener noreferrer" target="_blank">
+                          {t('claim_ens_page.world')}
+                        </a>
+                      ),
+                      symbol: <Mana size="small" />
+                    }}
+                  />
+                </span>
+              </Section>
+              <Form onSubmit={this.handleClaim}>
+                <Section className={name.length === MAX_NAME_SIZE ? 'red' : ''}>
+                  <Field
+                    label={t('claim_ens_page.name_label')}
+                    value={name}
+                    message={message}
+                    placeholder={t('claim_ens_page.name_placeholder')}
+                    action={`${name.length}/${MAX_NAME_SIZE}`}
+                    error={isError || (hasNameMinLength(name) && !isValid) || !isAvailable}
+                    onChange={this.handleNameChange}
+                    onAction={this.handleAction}
+                  />
+                </Section>
+                <Section className="field">
+                  <Header sub={true}>{t('claim_ens_page.radio_label')}</Header>
+                  <NetworkCheck network={Network.ETHEREUM}>
+                    {isEnabled => (
+                      <Radio toggle disabled={isLoading || !isEnabled} checked={isManaAllowed} onChange={this.handleManaApprove} />
+                    )}
+                  </NetworkCheck>
+                  <p className="message">
+                    <T
+                      id="claim_ens_page.need_mana_message"
+                      values={{
+                        contract_link: (
+                          <TransactionLink address={CONTROLLER_ADDRESS} txHash="">
+                            UnicialController
+                          </TransactionLink>
+                        )
+                      }}
+                    />
+                  </p>
+                </Section>
+                <Row className="actions">
+                  <Button inverted className="cancel" onClick={onBack} type="button">
+                    {t('global.cancel')}
+                  </Button>
+                  {!isLoading && (!isEnoughMana || !isManaAllowed) ? (
+                    <Popup
+                      className="modal-tooltip"
+                      content={
+                        !isEnoughMana ? t('claim_ens_page.not_enough_mana') : !isManaAllowed ? t('claim_ens_page.mana_not_allowed') : ''
+                      }
+                      position="top center"
+                      trigger={
+                        <div className="popup-button">
+                          <NetworkButton type="submit" primary disabled={isDisabled} loading={isLoading} network={Network.ETHEREUM}>
+                            {t('claim_ens_page.claim_button')} <Mana inline>{PRICE.toLocaleString()}</Mana>
+                          </NetworkButton>
+                        </div>
+                      }
+                      hideOnScroll={true}
+                      on="hover"
+                      inverted
+                    />
+                  ) : (
+                    <NetworkButton type="submit" primary disabled={isDisabled} loading={isLoading} network={Network.ETHEREUM}>
+                      {t('claim_ens_page.claim_button')} <Mana inline>{PRICE.toLocaleString()}</Mana>
+                    </NetworkButton>
+                  )}
+                </Row>
+              </Form>
+            </Column>
+          </Row>
+        </Narrow>
+      </LoggedInDetailPage>
+    )
+  }
+}

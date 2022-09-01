@@ -1,0 +1,94 @@
+.ui.grid.TopBar {
+  height: var(--topbar-height);
+  background: var(--void);
+}
+
+.ui.grid.TopBar > .column:not(.row) {
+  padding: 12px;
+}
+
+.TopBar .ui.header.medium {
+  font-size: 17px;
+}
+
+.TopBar .row {
+  display: flex;
+}
+
+.TopBar .middle-column .row {
+  justify-content: center;
+}
+
+.TopBar .right-column .row {
+  justify-content: flex-end;
+}
+
+.TopBar .middle-column .editor-actions {
+  display: flex;
+}
+
+.TopBar .middle-column .editor-modes {
+  display: flex;
+  margin-right: 32px;
+}
+
+.TopBar .tool + .tool {
+  margin-left: 8px;
+}
+
+.TopBar .contest-button-wrapper {
+  display: flex;
+  margin-left: 24px;
+}
+
+.TopBar .project-title-header {
+  display: flex;
+  align-items: center;
+}
+
+.TopBar .project-title-header .go-back:hover {
+  cursor: pointer;
+  color: var(--primary);
+}
+
+.TopBar .project-title {
+  user-select: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.TopBar .project-title.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.TopBar .edit-project-icon {
+  margin-left: 12px;
+}
+
+.TopBar .cloud-upload-indicator {
+  margin-left: 6px;
+  margin-top: 6px;
+  cursor: default;
+}
+
+.TopBar .project-title:hover .edit-project-icon {
+  opacity: 1;
+  filter: none;
+}
+
+.TopBar .edit-project-icon:not(:hover) {
+  margin-left: 12px;
+  filter: saturate(0.1);
+  opacity: 0.32;
+}
+
+.ui.popup.bottom.top-bar-popup {
+  margin-top: 20px;
+}
+
+.TopBar .DeployButton {
+  height: 100%;
+}

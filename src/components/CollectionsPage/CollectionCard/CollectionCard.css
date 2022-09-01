@@ -1,0 +1,82 @@
+.CollectionCard {
+  background: #282e4e;
+  padding: 9px 9px 20px 9px;
+  box-shadow: 0px 0px 30px rgba(55, 55, 79, 0.05);
+  border-radius: 15px;
+}
+
+.CollectionCard .content {
+  margin-top: 16px;
+  text-align: start;
+  padding-left: 8px;
+}
+
+.CollectionCard .content .text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 248px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.CollectionCard .subtitle {
+  margin-top: 5px;
+  max-width: 248px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #96a1db;
+}
+
+.CollectionCard .CollectionBadge {
+  margin-left: 5px;
+}
+
+.CollectionCard .sparkles {
+  width: 54px;
+  height: 56px;
+  margin-bottom: 5px;
+  background-image: url('../../../images/sparkles.svg');
+  background-repeat: no-repeat;
+}
+
+.CollectionCard.is-over .CollectionImage {
+  border: 1px solid var(--primary) !important;
+}
+
+.CollectionCard .empty-collection-options .icon:before {
+  color: var(--text) !important;
+}
+
+.CollectionCard:hover .options-dropdown.ui.dropdown > .dropdown.icon {
+  visibility: visible;
+}
+
+.CollectionCard .options-dropdown.ui.dropdown > .dropdown.icon {
+  visibility: hidden;
+  color: #fff;
+  background: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .CollectionCard .content .text {
+    max-width: 215px;
+  }
+}
+
+.delete-collection-confirm .header {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

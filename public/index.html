@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/logo.svg" />
+    <meta
+      name="description"
+      content="Add your own 3D elements or choose from hundreds of pre-loaded items. Select, drag and drop them onto the canvas to create cool interactive scenes. No coding required, no design skills needed!"
+    />
+    <meta property="og:title" content="Unicial Builder—world creation made easy" />
+    <meta
+      property="og:description"
+      content="Add your own 3D elements or choose from hundreds of pre-loaded items. Select, drag and drop them onto the canvas to create cool interactive scenes. No coding required, no design skills needed!"
+    />
+    <meta property="og:url" content="https://unicial.org" />
+    <meta property="og:site_name" content="Unicial Builder" />
+    <meta property="og:image" content="https://unicial.org/images/logo.png" />
+    <meta name="twitter:title" content="Unicial Builder—world creation made easy" />
+    <meta
+      name="twitter:description"
+      content="Add your own 3D elements or choose from hundreds of pre-loaded items. Select, drag and drop them onto the canvas to create cool interactive scenes. No coding required, no design skills needed!"
+    />
+    <meta name="twitter:card" value="Unicial Builder—world creation made easy" />
+    <meta name="twitter:site" content="@unicial" />
+    <meta name="twitter:creator" content="@unicial" />
+    <meta name="twitter:image" content="https://unicial.org/images/logo.png" />
+    <meta itemprop="name" content="Unicial Builder" />
+    <meta
+      itemprop="description"
+      content="Add your own 3D elements or choose from hundreds of pre-loaded items. Select, drag and drop them onto the canvas to create cool interactive scenes. No coding required, no design skills needed!"
+    />
+    <meta itemprop="image" content="https://unicial.org/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css" />
+
+    <style>
+      .loading-overlay {
+        overflow: hidden;
+        background: #19141a;
+      }
+
+      .loading-overlay:after {
+        content: '';
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: -50px -50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-image: url(https://market.decentraland.org/static/media/logo.a2f3cefb.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: loadingAnimation 3s infinite;
+        animation-delay: 2s;
+        opacity: 0;
+      }
+
+      @keyframes loadingAnimation {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
+
+    <title>Unicial | Builder</title>
+  </head>
+  <body class="dcl-loading">
+    <div id="load-messages-wrapper"></div>
+    <div id="overlay"></div>
+    <div id="progress-bar" class="progress ingame">
+      <div class="full"></div>
+    </div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/unity/Build/hls.min.js"></script>
+    <script src="%PUBLIC_URL%/editor.js"></script>
+    <script src="%PUBLIC_URL%/UnityLoader.js"></script>
+  </body>
+</html>

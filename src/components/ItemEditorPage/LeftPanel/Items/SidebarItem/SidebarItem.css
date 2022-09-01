@@ -1,0 +1,82 @@
+.SidebarItem {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 30px rgba(55, 55, 79, 0.05);
+  border-radius: 15px;
+}
+
+.SidebarItem > .ui.checkbox {
+  margin-right: 10px;
+}
+
+.SidebarItem > a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: #282e4e;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  height: 44px;
+  padding: 8px 36px 8px 24px;
+}
+
+.SidebarItem .ItemImage {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 8px;
+  flex: none;
+}
+
+.SidebarItem .name {
+  margin-left: 8px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: bold;
+  flex: 1 1 auto;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.SidebarItem .toggle {
+  flex: none;
+  width: 20px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 20px;
+}
+
+.SidebarItem.is-selected > a {
+  cursor: default;
+}
+
+.SidebarItem.is-dragging > a {
+  border: 1px solid var(--primary);
+  cursor: grabbing;
+}
+
+.SidebarItem > a:hover .toggle {
+  background-image: url(../../../../../images/eye-toggle-item.svg);
+}
+
+.SidebarItem .toggle.is-visible,
+.SidebarItem > a:hover .toggle.is-visible {
+  background-image: url(../../../../../images/eye-toggle-item-active.svg);
+}
+
+.SidebarItem .toggle:hover {
+  cursor: pointer;
+}
+
+.SidebarItem > a:not(.is-selected):hover {
+  background: var(--light-blue-steel);
+}
+
+.SidebarItem .ItemStatus {
+  margin-right: 6px;
+}

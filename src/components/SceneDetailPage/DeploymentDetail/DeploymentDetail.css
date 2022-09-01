@@ -1,0 +1,66 @@
+.DeploymentDetail {
+  border-bottom: 1px solid var(--divider);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.DeploymentDetail:first-child {
+  border-top: 1px solid var(--divider);
+}
+
+.DeploymentDetail.clickable:hover {
+  background-color: rgba(36, 33, 41, 0.4);
+  cursor: pointer;
+}
+
+.DeploymentDetail .atlas-wrapper {
+  flex: none;
+  width: 96px;
+  height: 64px;
+  background-color: var(--card);
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.DeploymentDetail .atlas-wrapper canvas {
+  border-radius: 8px;
+}
+
+.DeploymentDetail .title {
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+
+.DeploymentDetail .stat {
+  display: flex;
+  flex-direction: column;
+  min-width: 128px;
+  margin-right: 32px;
+}
+
+.DeploymentDetail .status {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 1px;
+  display: inline-block;
+  border-radius: 100%;
+  margin-right: 6px;
+}
+
+.DeploymentDetail .status.online {
+  background-color: #3fff47;
+}
+
+.DeploymentDetail .status.needs-sync {
+  background-color: orange;
+}
+
+.DeploymentDetail .ui.dropdown {
+  position: absolute;
+  right: 0px;
+}

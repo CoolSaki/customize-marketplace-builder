@@ -1,0 +1,67 @@
+.Scene {
+  border-bottom: 1px solid var(--divider);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.Scene:first-child {
+  border-top: 1px solid var(--divider);
+}
+
+.Scene.clickable:hover {
+  background-color: rgba(36, 33, 41, 0.4);
+  cursor: pointer;
+}
+
+.Scene .thumbnail {
+  flex: 1 0 auto;
+  width: 96px;
+  height: 64px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--card);
+  background-image: url(../../../images/watermelon.svg);
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.Scene .no-thumbnail {
+  width: 96px;
+  height: 64px;
+  background-color: var(--card);
+  background-image: url(../../../images/watermelon.svg);
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.Scene .title {
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Scene .stat {
+  display: flex;
+  flex-direction: column;
+  width: 128px;
+  margin-right: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: none;
+}
+
+.Scene .ui.dropdown {
+  position: absolute;
+  right: 0px;
+}

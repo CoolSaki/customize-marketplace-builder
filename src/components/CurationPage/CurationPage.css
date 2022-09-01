@@ -1,0 +1,27 @@
+.CurationPage .filters {
+  margin-bottom: 10px;
+}
+
+.CurationPage .text-filter {
+  width: 100%;
+}
+
+.CurationPage .filters .text-filter-row {
+  width: 100%;
+}
+
+.CurationPage .pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.CurationPage .filters .dropdown.assignees .menu {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.CurationPage .filters .dropdown.assignees .menu .selected.item,
+.ui.dropdown.selected {
+  color: var(--primary);
+}

@@ -1,0 +1,116 @@
+.PoolCard {
+  position: relative;
+  width: calc(33% - 15px);
+  /* height: var(--list-page-card-height); */
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  background: rgba(var(--bluish-steel-raw), 1);
+  padding: 9px 9px 20px 9px;
+  cursor: pointer;
+}
+
+.PoolCard:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.PoolCard .deployment-status {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 10px;
+  height: 10px;
+}
+
+.PoolCard .project-data {
+  width: 100%;
+  margin: 20px 8px 0px 8px;
+  color: var(--text);
+  z-index: 1;
+}
+
+.PoolCard .title {
+  margin-bottom: 11px;
+  max-width: 175px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+}
+
+.PoolCard .description {
+  font-size: 17px;
+  font-weight: 200;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.PoolCard .thumbnail {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  width: 100%;
+  height: var(--list-page-card-width);
+}
+
+.PoolCard .title-wrapper {
+  display: flex;
+}
+
+.PoolCard .Icon.is-uploading {
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.PoolCard .component-list {
+  color: var(--secondary-text);
+  display: flex;
+  text-transform: uppercase;
+  flex: 0 0 100%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.PoolCard .component-list .component {
+  margin-right: 24px;
+}
+
+.PoolCard .component-list .component .Icon {
+  margin-right: 0.5em;
+  vertical-align: top;
+}
+
+@media (max-width: 992px) {
+  .PoolCard {
+    width: calc(50% - 15px);
+  }
+
+  .PoolCard:nth-child(2n) {
+    margin-right: 0px;
+  }
+
+  .PoolCard:nth-child(3n) {
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 592px) {
+  .PoolCard {
+    width: 100%;
+  }
+
+  .PoolCard {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,31 @@
+.Banner {
+  height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: 100%;
+  background: var(--purple-banner);
+  color: white;
+}
+
+.Banner > span {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.Banner .dcl.close {
+  justify-self: flex-end;
+  margin-right: 24px;
+  transform: scale(1.4);
+}
+
+@media (max-width: 1024px) {
+  .Banner .dcl.close {
+    display: block;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    margin-right: 0px;
+  }
+}

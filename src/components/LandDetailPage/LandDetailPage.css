@@ -1,0 +1,82 @@
+.LandDetailPage .atlas-wrapper {
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.LandDetailPage .atlas-wrapper.clickable,
+.LandDetailPage .atlas-wrapper.clickable .dcl.atlas .react-tile-map-canvas:not(.draggable),
+.LandDetailPage .atlas-wrapper.clickable .dcl.atlas .react-tile-map-canvas.draggable {
+  cursor: pointer;
+}
+
+.LandDetailPage .dcl.atlas .react-tile-map-canvas {
+  border-radius: 8px;
+}
+
+.LandDetailPage .dcl.stats.operators .Profile {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.LandDetailPage .capitalize .ui.header:not(.sub) {
+  text-transform: capitalize;
+}
+
+.LandDetailPage .dcl.column.actions {
+  margin-left: 20px;
+}
+
+.LandDetailPage .dcl.section.medium.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.LandDetailPage .dcl.section.data .dcl.stats {
+  margin-right: 48px;
+}
+
+.LandDetailPage .dcl.section.data .dcl.stats + .dcl.stats {
+  margin-left: 0px;
+}
+
+.LandDetailPage .ens-list {
+  display: flex;
+}
+
+.LandDetailPage .ens-list .Chip + .Chip {
+  margin-left: 16px;
+}
+
+.LandDetailPage .tooltip {
+  position: fixed;
+  z-index: 999;
+  pointer-events: none;
+  background: var(--card);
+  color: var(--text);
+  margin-left: 20px;
+  margin-top: -16px;
+  padding: 8px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.LandDetailPage .tooltip .thumbnail {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+}
+
+.LandDetailPage .tooltip .name {
+  font-weight: 600;
+  padding: 0px 4px;
+}
+
+.LandDetailPage .deployments + .notice {
+  color: var(--secondary-text);
+  text-align: right;
+  margin-top: 8px;
+}

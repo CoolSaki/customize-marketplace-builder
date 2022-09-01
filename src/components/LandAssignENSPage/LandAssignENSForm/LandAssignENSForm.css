@@ -1,0 +1,57 @@
+.LandAssignENSForm .centered {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.LandAssignENSForm .centered p {
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.LandAssignENSForm .message {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.LandAssignENSForm .box {
+  width: 100%;
+  padding: 16px;
+  background-color: #242129;
+  margin-bottom: 12px;
+  border-radious: 8px;
+}
+
+.LandAssignENSForm .box .message-box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.LandAssignENSForm .box.box-disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.LandAssignENSForm .box .message-box .ui.button {
+  padding: 13px 10px;
+}
+
+.LandAssignENSForm .box p {
+  width: 100%;
+  margin-right: 45px;
+}
+
+.LandAssignENSForm .confirmation-buttons button {
+  width: 155px;
+  margin-top: 50px;
+  margin-right: 5px;
+}
+
+.LandAssignENSForm .box .message-box .grey-button {
+  background-color: #444 !important;
+}
+
+.LandAssignENSForm i.check.icon {
+  padding-left: 10px;
+}
